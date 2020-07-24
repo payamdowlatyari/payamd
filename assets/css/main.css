@@ -110,17 +110,13 @@ input, select, textarea {
 		-webkit-transition: border-color 0.5s ease-in-out;
 		-ms-transition: border-color 0.5s ease-in-out;
 		transition: border-color 0.3s ease-in-out;
-		/* border-bottom: dotted 1px; */
 		color: #F29F05;
 		outline: 0;
 		text-decoration: none;
-		/* color: #a0a7ad; */
 	}
 
 		a:hover {
-			border-color: transparent;
-			/* transition: .5s; */
-		
+			border-color: transparent;		
 			color: #ffffff;
 		}
 
@@ -215,7 +211,7 @@ input, select, textarea {
 /* BG */
 
 #main {
-	background: #232526;  /* fallback for old browsers */
+background: #232526;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
@@ -239,8 +235,8 @@ background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, 
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		/* background: #000000; */
-		/* background-repeat: repeat-y; */
+		background: #000000;
+		background-repeat: repeat-y;
 		height: 100%;
 		left: 0;
 		opacity: 1;
@@ -737,7 +733,7 @@ background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, 
 		position: absolute;
 		text-align: center;
 		width: 100%;
-		/* font-family: sans-serif; */
+		font-family: sans-serif;
 		font-size: smaller;
 	}
 
@@ -1095,9 +1091,5 @@ background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, 
 		#header nav {
 			padding: 0 1em;
 		} 
-	
-	/* #header a:hover {
-		color: #fff;
-	} */
 	
 	}
