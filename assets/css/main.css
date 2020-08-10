@@ -97,7 +97,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #dddddd;
+		color: #c0c0c0;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -110,14 +110,15 @@ input, select, textarea {
 		-webkit-transition: border-color 0.5s ease-in-out;
 		-ms-transition: border-color 0.5s ease-in-out;
 		transition: border-color 0.3s ease-in-out;
-		color: #F29F05;
+		color: #c0c0c0;
+		text-decoration: none ;
 		outline: 0;
-		text-decoration: none;
+		padding-left: 5px;
 	}
 
 		a:hover {
 			border-color: transparent;		
-			color: #ffffff;
+			color: #3dc9b3;
 		}
 
 
@@ -211,14 +212,21 @@ input, select, textarea {
 /* BG */
 
 #main {
-background: #232526;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #242830;
 
 }
 #title{
+	/* font-family: 'Do Hyeon', sans-serif; */
 	font-family: 'Ubuntu', sans-serif;
+	color: #f3f5f8;
 }
+
+.container { width: 50%; padding: 50px;}
+.grid-option{ position: relative; height: 50%; background: #242830;}
+.card { background: #242830; border: none; }
+.card img { max-width: 100%; width: 100px; height: 100px;}
+.card:hover { opacity: .5;}
+
 
 	#bg {
 		-moz-animation: bg 60s linear infinite;
@@ -361,7 +369,7 @@ background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, 
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+		/* background-image: url("images/overlay-pattern.png"), url("images/overlay.svg"); */
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -570,8 +578,9 @@ background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, 
 		}
 
 		#header p {
-			font-size: 1.25em;
-			margin: 0.75em 0 0.25em 0;
+			font-family: 'Dosis', sans-serif;
+			font-size: 1.75em;
+			margin: 0.75em 0 0.5em 0;
 			opacity: 0.75;
 		}
 
@@ -721,10 +730,10 @@ background: linear-gradient(to bottom, #414345, #232526); /* W3C, IE 10+/ Edge, 
 /* Footer */
 
 	#footer {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%); */
 		bottom: 0;
 		cursor: default;
 		height: 6em;
