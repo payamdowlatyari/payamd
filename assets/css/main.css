@@ -223,7 +223,10 @@ background: #242830;
 
 #sub-title{
 	letter-spacing: 0.1rem;
-	line-height: 1rem;
+	line-height: 2rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	opacity: 0.5;
 }
 
 .start-button{
@@ -243,47 +246,73 @@ background: #242830;
 .card img { max-width: 100%; width: 100px; height: 100px;}
 .card:hover { opacity: .5;}
 .links{
-
 	margin: 0 auto;
-	padding-top: 20%;
-	vertical-align: middle;
+	padding-top: 20vh;
 	font-size: 2em;
 	text-transform: uppercase;
 	text-align: center;
-	font-weight: 400;
+	font-weight: 900;
+	display: block;
 }
+.links p{
+	color: #242830;
+	margin: 0.2em;
+	height: 15vh;
+}
+
 
 .start-schedule a{
 	text-transform: uppercase;
-	letter-spacing: 0.05em;
+	letter-spacing: -0.05em;
 	font-size: 1.5em;
 	font-weight:500;
-	color: #3dc9b3;
+	color: #000000;
 	opacity: 0.7;
-	line-height: 3rem;
+	line-height: 2em;
+	background-color: #3dc9b3;
+	border-radius: 5px;
+	padding-left: 1.8em;
+	padding-right: 1.8em;
 }
 .schedule{
-	font-size: 0.9em;
+	font-size: 1.3em;
+	padding-top: 0.5em;
+	
+}
+
+.contact-info{
+	font-size: 1em;
+}
+.schedule a {
+	border-radius: 5px;
+	width: min-content;
+	text-align: center;
+	color: #242830;
+	background: #a1a9b0;
+	opacity: 0.7;
+	padding: 0.1em;
 }
 
 .start-schedule a:hover{
 	transition: 0.5s;	
 	opacity: 1;
 }
-.schedule:hover {
+.schedule a:hover {
 	transition: 0.5s;	
+	background-color: #fff;
 }
 .links a {
 	padding: 1em;
 }
 
 .links a:hover {
-	transition: ease-in 0.5s;
+	transition: 0.5s;
 }
 
 #overlay-2 {
 	position: fixed;
 	display: none;
+	opacity: 0;
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -293,9 +322,34 @@ background: #242830;
 	background-color: #242830;
 	z-index: 2;
 	cursor: pointer;
-	transform: 2s;
+	-moz-animation: overlay 0.5s 0.5s forwards;
+		-webkit-animation: overlay 0.5s 0.5s forwards;
+		-ms-animation: overlay 0.5s 0.5s forwards;
+		animation: overlay 0.5s 0.5s forwards;
+	
   }
 
+  @keyframes overlay-2 {
+	0% {
+		opacity: 0;
+	}
+	25% {
+		opacity: 0.25;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	75% {
+		opacity: 0.75;
+	}
+	100% {
+		opacity: 1;
+	}
+  }
+
+  .fa{
+	  width: 3em;
+  }
 
 	#bg {
 		-moz-animation: bg 60s linear infinite;
@@ -822,7 +876,7 @@ background: #242830;
 	#footer {
 		bottom: 0;
 		cursor: default;
-		height: 6em;
+		height: 5em;
 		left: 0;
 		line-height: 2.5em;
 		position: absolute;
