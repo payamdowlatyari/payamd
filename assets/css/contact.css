@@ -1,16 +1,58 @@
-
-body{
+html, body{
     background-color: #242830;
+    height: 100%;
 }
+.element {
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    animation: pulse 3s;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #f3f5f8;
+    }
+    100% {
+      background-color: #242830;
+    }
+  }
+  
+
 
 h2{
     font-family: 'Ubuntu', sans-serif;
     color: #f3f5f8;
     font-size: 2rem;
+    text-transform: uppercase;
 }
 
+p{
+    color: #f3f5f8;
+    font-size: small;
+}
+
+a {
+    -moz-transition: border-color 0.5s ease-in-out;
+    -webkit-transition: border-color 0.5s ease-in-out;
+    -ms-transition: border-color 0.5s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    color: #a1a9b0;
+    text-decoration: none ;
+    outline: 0;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+
+a:hover {
+        border-color: transparent;		
+        color: #fff;
+        text-decoration: none;
+}
+
+
 .container{
-    margin-top: 10em;
+    padding-top: 10em;
     text-align: center;
 }
 
@@ -28,4 +70,45 @@ form{
 
 .field{
     margin-bottom: 10px;
+}
+
+.sub-btn{
+    background-color: #3dc9b3;
+    color: #242830;
+    width: 160px;
+    min-width: 60px;
+    margin: 5px;
+}
+.sub-btn:hover{
+    background-color: #a1a9b0;
+    color: #242830;
+    transition: 0.5s;
+}
+
+.res-btn{
+    color: #242830;
+    width: 160px;
+    min-width: 60px;
+    margin: 5px;
+
+}
+
+.res-btn:hover{
+    background-color: #a1a9b0;
+    color: #242830;
+    transition: 0.5s;
+
+}
+
+#footer {
+    bottom: 0;
+    cursor: default;
+    height: 5em;
+    left: 0;
+    line-height: 2.5em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: small;
 }

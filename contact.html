@@ -11,36 +11,57 @@
 
     <link rel="stylesheet" href="assets/css/contact.css" />
 
-    <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
-    <script src="https://use.fontawesome.com/6675b002a4.js"></script> -->
+    <script src="https://use.fontawesome.com/6675b002a4.js"></script>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="element">
+        <div class="container">
+            <div class="row">
 
-            <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 contact-form">
-                <h2>Contact Me</h2>
-                <form method="post" action="https://formspree.io/f/xqkgavzo">
-                    <div class="fields">
-                        <div class="field">
-                            <input class="form-control" type="text" name="name" id="name" placeholder="Name" />
+                <div class="col-lg-4 col-md-6 col-sm-8 col-xs-12 contact-form">
+                    <h2>Get In Touch</h2>
+                    <p>
+                        <a href="/"><i class="fa fa-arrow-left" aria-hidden="true"></i>
+                            HOME</a>
+
+                    </p>
+                    <form method="post" action="https://formspree.io/f/xqkgavzo">
+                        <div class="fields">
+                            <div class="field">
+                                <input class="form-control" type="text" name="name" id="name" placeholder="Name" />
+                            </div>
+                            <div class="field">
+                                <input class="form-control" type="text" name="email" id="email" placeholder="Email" />
+                            </div>
+                            <div class="field">
+                                <textarea class="form-control" name="message" id="message" rows="4"
+                                    placeholder="Message"></textarea>
+                            </div>
                         </div>
-                        <div class="field">
-                            <input class="form-control" type="text" name="email" id="email" placeholder="Email" />
+                        <div> <input type="reset" value="Reset" class="btn btn-secondary res-btn" /><input type="submit"
+                                value="Send" class="btn btn-secondary sub-btn" />
                         </div>
-                        <div class="field">
-                            <textarea class="form-control" name="message" id="message" rows="4"
-                                placeholder="Message"></textarea>
-                        </div>
-                    </div>
-                    <div><input type="submit" value="Send" class="btn btn-secondary btn-lg btn-block" />
-                        <input type="reset" value="Reset" class="btn btn-secondary btn-lg btn-block" /></div>
-                </form>
+                    </form>
+
+                </div>
             </div>
+
+            <footer id="footer">
+                <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">
+                    Designed by<a rel="cc:attributionURL dct:creator" property="cc:attributionName"
+                        href="https://www.payamd.com/" target="_blank">www.payamd.com</a>Licensed under<a rel="license"
+                        href="https://creativecommons.org/licenses/by-nc/4.0" target="_blank">CC
+                        BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img
+                            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img
+                            style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                            src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /></a>
+                </p>
+            </footer>
         </div>
     </div>
 </body>
