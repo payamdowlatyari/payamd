@@ -1,0 +1,31 @@
+
+body{
+    background-color: #242830;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: #f3f5f8;
+    font-size: 2rem;
+}
+
+.container{
+    margin-top: 10em;
+    text-align: center;
+}
+
+.contact-form{
+    text-align: center;
+    margin: 0 auto;
+   
+}
+
+
+form{
+    position: relative;
+    text-align: center;
+}
+
+.field{
+    margin-bottom: 10px;
+}
