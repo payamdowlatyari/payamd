@@ -18,13 +18,17 @@ html, body{
     }
   }
   
+#title{
+    font-weight: 900;
 
+}
 
 h2{
     font-family: 'Ubuntu', sans-serif;
     color: #f3f5f8;
     font-size: 2rem;
     text-transform: uppercase;
+    font-weight: 900;
 }
 
 p{
@@ -109,6 +113,6 @@ form{
     position: absolute;
     text-align: center;
     width: 100%;
-    font-family: sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: small;
 }
