@@ -3,6 +3,8 @@
 
 /*
 	Payam Dowlatyari
+	https://www.payamd.com
+	Personal Website
 */
 
 html, body, div, span, applet, object,
@@ -21,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -214,9 +217,15 @@ input, select, textarea {
 
 #main {
 background: #242830;
-
+background-image: url('/assets/img/photo-1497091071254-cc9b2ba7c48a.jpeg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+-ms-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
 }
-
 
 #title{
 	font-family: 'Ubuntu', sans-serif;
@@ -271,10 +280,10 @@ background: #242830;
 	font-weight: 900;
 	display: block;
 }
+
 .links p{
 	margin: 0.1em;
 	height: 15vh;
-	/* padding-right: 2em; */
 }
 
 .start-schedule a{
@@ -330,7 +339,11 @@ background: #242830;
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #242830;
+	background-color: transparent;
+	background-image: url('/assets/img/photo-1497091071254-cc9b2ba7c48a.jpeg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	z-index: 2;
 	cursor: pointer;
 	-moz-animation: overlay 0.5s 0.5s forwards;
@@ -354,9 +367,10 @@ background: #242830;
 		opacity: 0.75;
 	}
 	100% {
-		opacity: 1;
+		opacity: 0;
 	}
   }
+
 
   .fa{
 	  width: 5em;
@@ -501,7 +515,7 @@ background: #242830;
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		/* background-image: url("images/overlay-pattern.png"), url("images/overlay.svg"); */
+		background-image: url("/assets/img/jc0euy.jpg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -729,7 +743,6 @@ background: #242830;
 		
 	  }
 
-
 		#header h1 {
 			font-size: 4em;
 			font-weight: 900;
@@ -772,6 +785,7 @@ background: #242830;
 				position: relative;
 				top: 0;
 				width: 3em;
+				border: none;
 			
 			}
 
@@ -846,7 +860,7 @@ background: #242830;
 				}
 
 			#header nav a {
-				-webkit-tap-highlight-color: #242830;
+				-webkit-tap-highlight-color:transparent;
 				-webkit-touch-callout: none;
 				border: 0;
 				display: inline-block;
@@ -858,7 +872,7 @@ background: #242830;
 					-ms-transition: all 0.2s ease-in-out;
 					transition: all 0.2s ease-in-out;
 					border-radius: 100%;
-					border: solid 1px #242830;
+					/* border: solid 1px #242830; */
 					display: block;
 					font-size: 1.5em;
 					height: 2em;
@@ -874,7 +888,7 @@ background: #242830;
 				}
 
 					#header nav a:hover:before {
-						background-color: #242830;
+						background-color : transparent;
 						color: #fff;
 					}
 
