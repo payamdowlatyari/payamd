@@ -1,9 +1,8 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
     padding-top:54px;
     color:#a1a9b0; 
     background: #242830;
-    background-image: url('/assets/img/felix-besombes-EzrHLVd83h0-unsplash.jpg');
+    background-image: url('/assets/img/abstract-texture-design-wallpaper-preview.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -24,7 +23,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Ubuntu', sans-serif ;
     font-weight:500;
     color:#f3f5f8; 
-    opacity: 0.9;
+    opacity: 1;
 }
 
 h1{
@@ -37,34 +36,34 @@ h2{
     color: #3dc9b3; 
     opacity: 0.8; 
     font-weight: 500; 
-    font-size:2.5rem; 
+    font-size:2rem; 
     text-transform: uppercase;
 }
 
 h3{
-    font-family: 'Times New Roman', Times, serif;
-    font-size:1.25rem; 
-    line-height: 3rem;
+    opacity: 0.9;
+    font-size:1.2rem; 
+    line-height:2.5rem;
 }
-
 
 .subheading{
     margin-left: 5px;  
-    font-weight:500;
-    font-size:1.1rem; 
+    font-weight:100;
+    font-size:1rem; 
     color: #f3f5f8;
     font-style: italic;
+    opacity: 0.7;
 }
 
  .social-icons a{
      display:inline-block;
-     height:3.25rem;
-     width:3.25rem;
+     height:2.75rem;
+     width:2.75rem;
      background: transparent;
      border-radius:100%; 
      text-align:center;
-     font-size:1.5rem; 
-     line-height:3.5rem;
+     font-size:1.25rem; 
+     line-height:3rem;
      margin-right:0rem;
 }
  
@@ -86,16 +85,13 @@ h3{
 } 
 
  #sideNav .navbar-nav .nav-item .nav-link{
-     opacity: 1;
-     font-family: 'Righteous', cursive;  
+     opacity: 0.8;
      font-weight:100;
-     letter-spacing:0.1em;
      text-transform:uppercase;    
 }
 
 #sideNav .navbar-toggler:focus{
     color:#f3f5f8;
-    opacity: 1;
 }
 
 @media (min-width:992px){
@@ -137,7 +133,6 @@ h3{
     max-width:10rem;
     max-height:10rem;
     border:0.25rem solid rgba(255,255,255,0.8);
-
 }
     
 #sideNav .navbar-collapse{
@@ -166,7 +161,8 @@ h3{
     display:block;
 }
 
-#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}section.resume-section{
+#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}
+section.resume-section{
     padding-top:5rem!important;
     padding-bottom:5rem!important;
     max-width:75rem;
@@ -178,14 +174,15 @@ section.resume-section .resume-item .resume-date{min-width:none}
 
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
-.bg-primary{ 
-     background-color:#000!important;
-     opacity: 0.6;
+.bg-primary{    
+    background-image: url('/assets/img/abstract-texture-design-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .text-primary{ 
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color:#a1a9b0!important; 
     text-transform: capitalize; 
     text-decoration: none;
@@ -193,9 +190,8 @@ section.resume-section .resume-item .resume-date{min-width:none}
 
 a{
     color:#f3f5f8; 
-    opacity: 0.7; 
+    opacity: 0.8; 
     text-decoration: none; 
-    font-family: 'Times New Roman', Times, serif;
 
 }
 
@@ -212,15 +208,15 @@ a:active,a:focus,a:hover{
  }
 
  .link-item p {
-     margin-bottom: 3px;
-     font-size: 1rem;
+     margin-bottom: 2px;
+     font-size: 0.9em;
  }
 
  #sideNav .navbar-nav .nav-item .nav-link{
      font-family: 'Ubuntu', sans-serif ;
      color: #f3f5f8;   
      font-size: 1em;
-     line-height: 1em;
+     line-height: 0.9em;
  }
 
  #sideNav .navbar-nav .nav-item .nav-link:hover{
@@ -229,7 +225,6 @@ a:active,a:focus,a:hover{
 }
 
 .d-block{
-    font-family: 'Ubuntu', sans-serif; 
     font-weight: bolder;
     letter-spacing: 0.05rem;
     text-transform: uppercase;
@@ -240,17 +235,13 @@ a:active,a:focus,a:hover{
 }
 
  .nav-col{
-     background-color: #000;
-     opacity: 0.6;
      color: white;
      font-weight: 900;
      border: none;
 }
 
- p{
-     font-size: 0.9rem;
-     letter-spacing: -0px;
-     font-family: 'Times New Roman', Times, serif;
+p{
+     font-size: 0.8rem;
 }
 
  .fullName{
@@ -282,7 +273,7 @@ a:active,a:focus,a:hover{
     animation-duration: 3s;  
     animation-fill-mode: backwards;
     font-family: 'Ubuntu', sans-serif; 
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
  
 @keyframes my-sub-name {
@@ -319,10 +310,9 @@ a:active,a:focus,a:hover{
 }
 
 .web-links{
-    font-family: 'Times New Roman', Times, serif;
     padding-top: 10px;
     padding-left: 5px;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 .web-links a{
     padding-right: 20px;
@@ -337,7 +327,7 @@ hr{
     position: relative;
     margin-bottom: 0;
     text-align: right;
-    padding-right: 4rem;
+    padding-right: 4em;
     animation-name: tu-logo;
     animation-duration: 3s;  
     animation-fill-mode: backwards;    
@@ -345,12 +335,12 @@ hr{
 
 @keyframes tu-logo {
     from {top:-150px; opacity: 0;}
-    to {top: 0px; opacity: 0.5;}
+    to {top: 0px; opacity: 0.7;}
   }
 
 .side-logo img{
-    width: 150px;
-    opacity: 0.5;
+    width: 120px;
+    opacity: 0.7;
 }
 
 .side-logo img:hover {
@@ -359,7 +349,7 @@ hr{
 }
 
 .member-link a{
-    padding: 3rem;
+    padding: 3.5rem;
 }
 
 .member-link a:hover {
@@ -389,7 +379,15 @@ hr{
 }
 
 .skill-set i{
-    font-size: 0.7em;
+    font-size: 0.8em;
+}
+
+.skill-set ul li {
+    font-size: 0.8em;
+}
+
+.courses ul li a{
+    font-size: 0.9em;
 }
 
 
