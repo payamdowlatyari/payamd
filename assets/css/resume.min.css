@@ -2,7 +2,7 @@ body{
     padding-top:54px;
     color:#a1a9b0; 
     background: #242830;
-    background-image: url('/assets/img/abstract-texture-design-wallpaper-preview.jpg');
+    background-image: url('/assets/img/texture-gradient-simple-background-blue-wallpaper-preview.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -175,7 +175,7 @@ section.resume-section .resume-item .resume-date{min-width:none}
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
 .bg-primary{    
-    background-image: url('/assets/img/abstract-texture-design-wallpaper-preview.jpg');
+    background-image: url('/assets/img/texture-gradient-simple-background-blue-wallpaper-preview.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
