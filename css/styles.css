@@ -36,14 +36,12 @@ html, html a {
 /* * Addresses `font-family` inconsistency between `textarea` and other form
 * elements. */
 html, button, input, select, textarea { 
-	/* font-family: 'Varela Round', sans-serif;  */
 	font-family: 'Syne', sans-serif;
 
 }
 /* * Addresses margins handled incorrectly in IE 6/7. */
 body { 
 	margin: 0; 
-	/* font-family: 'Varela Round', sans-serif;  */
 	font-family: 'Syne', sans-serif;
 
 }
