@@ -216,8 +216,8 @@ a:active,a:focus,a:hover{
  #sideNav .navbar-nav .nav-item .nav-link{
      font-family: 'Ubuntu', sans-serif ;
      color: #f3f5f8;   
-     font-size: 1em;
-     line-height: 0.9em;
+     font-size: 0.9em;
+     line-height: 0.8em;
  }
 
  #sideNav .navbar-nav .nav-item .nav-link:hover{
