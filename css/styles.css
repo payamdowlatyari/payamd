@@ -212,6 +212,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 }
 
 #main-title{
+	padding-top: 1em;
 	 font-size: 3.5em; 
 	 font-weight: 900; 
 	 font-family: 'Syne', sans-serif;
