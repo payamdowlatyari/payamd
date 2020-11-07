@@ -1,11 +1,10 @@
-/* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
- 
+
 /* ==========================================================================
-HTML5 display definitions
+Author: Payam Dowlatyari 
+	Personal Portfolio
+	www.payamd.com
 ========================================================================== */
- 
-/* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
- 
+  
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 /* * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3. */
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -18,10 +17,6 @@ audio:not([controls]) { display: none; height: 0; }
 /* ==========================================================================
 Base
 ========================================================================== */
-/* * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
-*    `em` units.
-* 2. Prevents iOS text size adjust after orientation change, without disabling
-*    user zoom. */
  
 html { 
 	font-size: 100%; /* 1 */
@@ -244,15 +239,16 @@ nav a:hover, nav a:focus { text-decoration: none; color: #3dc9b3; transition: 1s
 .navicon { position: relative; height: 26px; }
 .indicator { position: absolute; right: 0 !important; }
 .pull { display: none; }
+.pull a{ font-weight: bolder;}
 /* ==========================================================================
 Hero
 ========================================================================== */
 .hero ,.container { padding-right: 20px; padding-left: 20px; }
 .hero { background: url('../assets/img/andre-benz-JBkwaYMuhdc-unsplash.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; }
-.hero h1 { font-size: 50px; letter-spacing: 6px; margin: 10px; }
+.hero h1 { font-size: 50px; letter-spacing: 6px; margin: 5px; font-weight: bolder;}
 .hero h1 span { color: #f3f5f8; display: inline-block; }
 .hero p { opacity: 0.7; letter-spacing: 0.2em; text-transform: capitalize;  font-size: 1em; font-weight: 900;  line-height: 1em; }
-.learn-more-btn { background: #f3f5f8; color: #000000; opacity: 0.5; padding: 5px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #000000; text-transform: uppercase; letter-spacing: 0.3em; display: inline-block; margin: 0 0 0; font-weight: 900; margin-top: 15px; width: 15em;}
+.learn-more-btn { background: #f3f5f8; color: #000000; opacity: 0.5; padding: 5px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #000000; text-transform: uppercase; letter-spacing: 0.3em; display: inline-block;  font-weight: 900; margin-top: 5px; width: 15em;}
 .learn-more-btn:hover, .learn-more-btn:focus { background: #3dc9b3; color: #000000; opacity: 0.9;}
 .btn-up-down { background: #242830; padding: 10px 20px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 1px; display: inline-block; margin: 0 0 0; font-weight: bold; }
 .btn-up-down:hover, .btn-up-down:focus { background: rgb(212, 212, 212); color: rgba(20, 20, 20, 0.699); }
