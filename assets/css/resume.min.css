@@ -2,7 +2,7 @@ body{
     padding-top:54px;
     color:#a1a9b0; 
     background: #242830;
-    background-image: url('/assets/img/photo-1497091071254-cc9b2ba7c48a.jpeg');
+    background-image: url('/assets/img/keyboard-laptop-computer-light.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -20,7 +20,7 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    /* font-family: 'Ubuntu', sans-serif ; */
+    
     font-family: 'Syne', sans-serif;
     font-weight:500;
     color:#f3f5f8; 
@@ -88,6 +88,7 @@ h3{
  #sideNav .navbar-nav .nav-item .nav-link{
      opacity: 0.8;
      font-weight:100;
+     letter-spacing: 0.1em;
      text-transform:uppercase;    
 }
 
@@ -176,7 +177,7 @@ section.resume-section .resume-item .resume-date{min-width:none}
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
 .bg-primary{  
-    background-image: url('/assets/img/photo-1497091071254-cc9b2ba7c48a.jpeg');
+    background-image: url('/assets/img/keyboard-laptop-computer-light.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -268,7 +269,6 @@ p{
     opacity: 0.8;
     font-style: normal;
     font-weight: 100;
-    text-transform: uppercase;
     position: relative;
     animation-name: my-sub-name;
     animation-duration: 3s;  
