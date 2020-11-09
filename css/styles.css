@@ -159,7 +159,8 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .inner { padding-top: 10px; }
 
 .inner, .fadeInUp{ 
-	padding-left: 30px;  
+	padding-left: 0;
+	padding-right: 0;  
 	font-size: 2em; 
 	color: #f3f5f8; 
 	opacity: 0.5;
@@ -169,7 +170,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 }
 
 #main-title{
-	 padding-top: 1em;
+	 padding-top: 0.5em;
 	 font-size: 3.5em; 
 	 font-weight: 900; 
 	 font-family: 'Syne', sans-serif;
@@ -199,10 +200,10 @@ nav a:hover, nav a:focus { text-decoration: none; color: #3dc9b3; transition: 1s
 #nav-toggle.active span:before, #nav-toggle.active span:after { top: 0; }
 #nav-toggle.active span:before { transform: rotate(45deg); -webkit-transform: rotate(45deg); -ms-transform: rotate(45deg); }
 #nav-toggle.active span:after { transform: translateY(-10px) rotate(-45deg); -webkit-transform: translateY(-10px) rotate(-45deg); -ms-transform: translateY(-10px) rotate(-45deg); top: 10px; }
-.navicon { position: relative; height: 26px; }
+.navicon { position: relative; height: 26px; opacity: 0.5;}
 .indicator { position: absolute; right: 0 !important; }
 .pull { display: none; }
-.pull a{ font-weight: bolder;}
+.pull a{ font-weight: 900;}
 /* ==========================================================================
 Hero
 ========================================================================== */
@@ -215,6 +216,31 @@ Hero
 .learn-more-btn:hover, .learn-more-btn:focus { background: #3dc9b3; color: #000000; opacity: 0.9;}
 .btn-up-down { background: #242830; padding: 10px 20px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: rgb(255, 255, 255); text-transform: uppercase; letter-spacing: 1px; display: inline-block; margin: 0 0 0; font-weight: bold; }
 .btn-up-down:hover, .btn-up-down:focus { background: rgb(212, 212, 212); color: rgba(20, 20, 20, 0.699); }
+
+.arrow-down i{
+	font-size: 2em;
+	color: #f3f5f8; 
+	animation-duration: 3s;
+ 	animation-name: slidein;
+  	animation-iteration-count: infinite;
+}
+
+.arrow-down i:hover {	
+	color: #3dc9b3; 
+}
+
+@keyframes slidein {
+	0% {
+	  opacity: 0.1;
+	}
+	50% {
+	  opacity: 0.3;
+	}
+	100% {
+	  opacity: 0.5;
+	}
+}
+
 /* ==========================================================================
 Intro
 ========================================================================== */
