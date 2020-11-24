@@ -301,9 +301,10 @@ background-size: cover;
 	padding-right: 1em;
 }
 .schedule{
-	font-size: 1em;
+	font-size: 1.1em;
+	letter-spacing: 0.2em;
 	line-height: 2em;
-	font-weight: 900;
+	font-weight: 500;
 	padding-top: 2em;
 	text-align: left;
 	padding-left: 2em;	
