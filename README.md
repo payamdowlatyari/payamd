@@ -1,2 +1,2 @@
 # payamd
-https://payamd.com
+https://www.payamd.com
