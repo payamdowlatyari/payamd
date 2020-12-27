@@ -203,7 +203,7 @@ nav a:hover, nav a:focus { text-decoration: none; color: #3dc9b3; transition: 1s
 .navicon { position: relative; height: 26px; opacity: 0.5;}
 .indicator { position: absolute; right: 0 !important; }
 .pull { display: none; }
-.pull a{ font-weight: 900;}
+.pull a{ font-weight: 900; letter-spacing: 0.2em; }
 /* ==========================================================================
 Hero
 ========================================================================== */
@@ -244,8 +244,10 @@ Hero
 /* ==========================================================================
 Intro
 ========================================================================== */
+/* .intro { background: url('../assets/img/technology-business-computer-designer.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; } */
+
 .intro { background: #f0f2f4;  min-height: 100vh;}
-.intro p { margin: 30px 0 0; }
+.intro p { margin: 30px 0 0;  opacity: 1;}
 .LI-profile-badge{ margin-top: 30px;} 
 h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 2em; font-weight: bold;}
 .freelance-badge{ margin: 50px;}
@@ -254,6 +256,8 @@ h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-sp
 /* ==========================================================================
 Features
 ========================================================================== */
+/* .features { background: url('../assets/img/keyboard-computer-keys-white.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; } */
+
 .features { background: #f0f2f4; min-height: 100vh;}
 .features-wrapper, .team-wrapper { padding-top: 3em; }
 .features-wrapper .service-box{ padding: 2em;}
@@ -282,6 +286,8 @@ Swag
 /* ==========================================================================
 Portfolio
 ========================================================================== */
+/* .portfolio { background: url('../assets/img/technology-business-computer-designer.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; } */
+
 .portfolio { background: #f0f2f4; min-height: 100vh;}
 .effects { padding-left: 0px; }
 .effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden;}
