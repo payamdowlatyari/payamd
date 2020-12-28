@@ -208,7 +208,7 @@ nav a:hover, nav a:focus { text-decoration: none; color: #3dc9b3; transition: 1s
 Hero
 ========================================================================== */
 .hero ,.container { padding-right: 20px; padding-left: 20px; }
-.hero { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; background-attachment: fixed;}
+.hero { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; }
 .hero h1 { font-size: 50px; letter-spacing: 6px; margin: 5px; font-weight: bolder;}
 .hero h1 span { color: #f3f5f8; display: inline-block; }
 .hero p { opacity: 0.7; letter-spacing: 0.2em; text-transform: capitalize;  font-size: 1em; font-weight: 900;  line-height: 1em; }
@@ -244,7 +244,7 @@ Hero
 /* ==========================================================================
 Intro
 ========================================================================== */
-/* .intro { background: url('../assets/img/hardware-macbook-iphone-office-wallpaper-preview.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; background-attachment: fixed;} */
+/* .intro { background: url('../assets/img/technology-business-computer-designer.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; } */
 
 .intro { background: #f0f2f4;  min-height: 100vh;}
 .intro p { margin: 30px 0 0;  opacity: 1;}
@@ -256,7 +256,7 @@ h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-sp
 /* ==========================================================================
 Features
 ========================================================================== */
-/* .features { background: url('../assets/img/keyboard-computer-keys-white.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; background-attachment: fixed;} */
+/* .features { background: url('../assets/img/keyboard-computer-keys-white.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; } */
 
 .features { background: #f0f2f4; min-height: 100vh;}
 .features-wrapper, .team-wrapper { padding-top: 3em; }
@@ -271,43 +271,14 @@ iPhone Section
 .iphone:hover { background-color: #242830; transition: .3s;}
 .fluid-white { width: 50%; background: #f3f5f8; float: right; height: 100%; z-index: 2; padding-bottom: 20px;}
 .responsive-services { position: relative; }
-/* #responsive{ padding-top: 0px; background: #242830;} */
+#responsive{ padding-top: 0px; background: #242830;}
 /* ==========================================================================
 blog Section
 ========================================================================== */
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0; background-attachment: fixed; }
-.swag h1 {
-	animation: infinite;
-	animation-name: qt-think;  animation-duration: 3s ; 
-	animation-timing-function: ease-out; 
-}
-	
-	
-@keyframes qt-think{		
-		0% {
-		opacity: 0.25;	
-		}
-		25%{
-			opacity: 0.5;
-		}
-		50% {
-			opacity: 0.75;	
-		}
-		75%{
-			opacity: 0.5;
-		}
-		100% {
-		  
-			opacity: 0.25;	
-		}
-	  }
-
-
-
-/* .swag { background: url('../img/design-bg.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 30px 0; background-attachment: fixed;} */
+.swag { background: url('../img/design-bg.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 30px 0; }
 .swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 8px; opacity: 0.7; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(61, 201, 179, 0.8); display: inline-block; margin: 10px auto 20px; color: #fff; font-size: 16px; line-height: 40px; text-align: center; }
@@ -348,8 +319,8 @@ Subscribe
 CTA
 ========================================================================== */
 .ignite-bar {background-color: #f3f5f8; padding: 50px; }
-.ignite-cta { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 60px; padding-bottom: 80px; background-attachment: fixed;}
-.ignite-cta h1 span {font-size: 0.7em; letter-spacing: 0.5em;} 
+.ignite-cta { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 40px; padding-bottom: 50px;}
+.ignite-cta h1 span {font-size: 0.7em;} 
 .ignite-cta h1 { color: #f3f5f8; text-transform: uppercase; padding-bottom: 5px; opacity: 0.8;}
 .ignite-btn { display: inline-block; padding: 15px 20px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px;}
 .ignite-btn:hover, .ignite-btn:focus { color: #3dc9b3; border: solid 1px #3dc9b3; }
@@ -360,7 +331,7 @@ Team
 ul.social-buttons { list-style: none; margin: 0; padding: 0; }
 ul.social-buttons li { display: inline-block; margin-right: 5px; }
 ul.social-buttons li:last-child { margin-right: 0; }
-.social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: transparent; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; background-attachment: fixed;}
+.social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: transparent; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
 .social-btn:hover, .social-btn:focus { color: #3dc9b3; }
 .social { margin-top: 15px }
 /* ==========================================================================
@@ -373,6 +344,7 @@ Memberships
 .half-page-right { width: 30%; height: 100%; background: #f3f5f8; float: right;}
 .buttom-page a{ padding: 30px; margin-bottom: 50px; margin-top: 50px;}
 .buttom-page img{ margin-bottom: 20px; margin-top: 20px;}
+.swag { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 40px 0;}
 .link-up-down a{color: #c0c0c0; }
 .link-up-down a:hover{color: #3dc9b3; transition: 0.5s; }
 /* ==========================================================================
@@ -388,9 +360,9 @@ Contact
 /* ==========================================================================
 Footer
 ========================================================================== */
-footer a { color: #a1a9b0;}
-footer { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed;}
-footer { padding: 30px 0 30px; }
+footer a { color: #a1a9b0; }
+footer { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 10px 0;}
+footer { background-color: #242830; padding: 30px 0 15px; }
 footer p { color: #fff; }
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
@@ -398,8 +370,8 @@ ul.legals li::after { content: " |"; }
 ul.legals li:last-child::after { content: ""; }
 .legals { text-align: left; }
 .credit { text-align: right; }
-.footer-title { font-size: 1.4em; text-transform: uppercase; letter-spacing: 0.1em;}
-.bottom-link a{ text-transform: uppercase; padding-left: 5px; }
+.footer-title { font-size: 18px; text-transform: uppercase;}
+.bottom-link a{ text-transform: uppercase; padding-left: 5px;}
 /* ==========================================================================
 FlexSlider Custom CSS
 ========================================================================== */
@@ -412,4 +384,4 @@ Waypoints
 .bounceInLeft, .bounceInRight, .fadeInUp, .fadeInUpDelay, .fadeInDown, .fadeInUpD, .fadeInLeft, .fadeInRight { visibility: visible; }
 .delay-05s { animation-delay: 0.5s; -webkit-animation-delay: 0.5s; }
 .delay-1s { animation-delay: 1s; -webkit-animation-delay: 1s; }
-.wp3 { background: url('../assets/img/process5.png') no-repeat center center; background-position: 200px 10px; height: 100%; }
+.wp3 { background: url('../img/process5.png') no-repeat center center; background-position: 200px 10px; height: 100%; }

@@ -218,7 +218,7 @@ a:active,a:focus,a:hover{
      font-family: 'Ubuntu', sans-serif ;
      color: #f3f5f8;   
      font-size: 0.9em;
-     line-height: 0.8em;
+     line-height: 0.5em;
  }
 
  #sideNav .navbar-nav .nav-item .nav-link:hover{
@@ -274,7 +274,7 @@ p{
     animation-duration: 3s;  
     animation-fill-mode: backwards;
     font-family: 'Ubuntu', sans-serif; 
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
  
 @keyframes my-sub-name {
