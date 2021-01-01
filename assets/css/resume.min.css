@@ -10,6 +10,22 @@ body{
     -moz-background-size: cover;
     -webkit-background-size: cover;
     background-size: cover;
+    animation-name: bg-page;
+    animation-duration: 3s;
+}
+
+@keyframes bg-page {
+    0%{
+        opacity: 0;
+        
+    }
+    50%{
+        opacity: 0.5;
+       
+    }
+    100%{
+        opacity: 1;
+    }
 }
  
  @media (min-width:992px){
@@ -19,31 +35,31 @@ body{
     }
 }
 
-h1,h2,h3,h4,h5,h6{
-    
+
+h1,h2,h3,h4,h5,h6{    
     font-family: 'Syne', sans-serif;
-    font-weight:500;
+    font-weight:100;
     color:#f3f5f8; 
     opacity: 1;
 }
 
 h1{
      font-size:3rem;
-     line-height:3.5rem; 
+     line-height:3rem; 
      text-transform: uppercase;
 }
 
 h2{
     color: #3dc9b3; 
-    opacity: 0.8; 
-    font-weight: 500; 
+    opacity: 0.9; 
+    font-weight: 500;
     font-size:2rem; 
     text-transform: uppercase;
 }
 
 h3{
     opacity: 0.9;
-    font-size:1.2rem; 
+    font-size:1.1rem; 
     line-height:2.5rem;
 }
 
@@ -54,6 +70,12 @@ h3{
     color: #f3f5f8;
     font-style: italic;
     opacity: 0.7;
+}
+
+#link-sub-2{
+    font-size: 0.8em;
+    font-family: 'Syne', sans-serif;
+
 }
 
  .social-icons a{
@@ -86,7 +108,7 @@ h3{
 } 
 
  #sideNav .navbar-nav .nav-item .nav-link{
-     opacity: 0.8;
+     opacity: 0.75;
      font-weight:100;
      letter-spacing: 0.1em;
      text-transform:uppercase;    
@@ -94,6 +116,7 @@ h3{
 
 #sideNav .navbar-toggler:focus{
     color:#f3f5f8;
+    opacity: 0.75;
 }
 
 @media (min-width:992px){
@@ -227,23 +250,25 @@ a:active,a:focus,a:hover{
 }
 
 .d-block{
-    font-weight: bolder;
-    letter-spacing: 0.05rem;
+    font-family: 'Ubuntu', sans-serif; 
+    letter-spacing: 0.1rem;
     text-transform: uppercase;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
     color: #3dc9b3;
     opacity: 0.8;
 }
 
  .nav-col{
      color: white;
-     font-weight: 900;
+     font-weight: 100;
      border: none;
 }
 
 p{
      font-size: 0.8rem;
+	 font-family: 'Syne', sans-serif;
+
 }
 
  .fullName{
@@ -251,11 +276,11 @@ p{
    opacity: 0.7;
    text-transform: uppercase;
    font-family: 'Ubuntu', sans-serif; 
-   letter-spacing: -2px;
+   letter-spacing: -1px;
    font-weight: 900;
    position: relative;
    animation-name: my-name;
-   animation-duration: 2s;  
+   animation-duration: 3s;  
    animation-fill-mode: forwards;
 }
 
@@ -320,8 +345,8 @@ p{
 }
 
 hr{
-    background: #242830;
-    border: #242830;   
+    background: transparent;
+    border: none;   
 }
 
 .side-logo {
@@ -335,12 +360,12 @@ hr{
 }
 
 @keyframes tu-logo {
-    from {top:-150px; opacity: 0;}
+    from {top: -100px; opacity: 0;}
     to {top: 0px; opacity: 0.7;}
   }
 
 .side-logo img{
-    width: 120px;
+    width: 100px;
     opacity: 0.7;
 }
 
@@ -374,7 +399,7 @@ hr{
 }
 
 .small-title{
-    font-weight: bolder;
+    font-weight: 500;
     color: #f3f5f8;
     opacity: 0.8;
 }
@@ -388,9 +413,12 @@ hr{
 }
 
 .courses ul li a{
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
+.copyright-link{
+    padding-bottom: 1em;
+}
 
 
 
