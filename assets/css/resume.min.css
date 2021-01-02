@@ -46,12 +46,14 @@ h1,h2,h3,h4,h5,h6{
 h1{
      font-size:3rem;
      line-height:3rem; 
+     font-weight: 900;
      text-transform: uppercase;
 }
 
 h2{
+    font-family: 'Ubuntu', sans-serif; 
     color: #3dc9b3; 
-    opacity: 0.9; 
+    opacity: 0.7; 
     font-weight: 500;
     font-size:2rem; 
     text-transform: uppercase;
@@ -65,16 +67,19 @@ h3{
 
 .subheading{
     margin-left: 5px;  
-    font-weight:100;
+    font-weight:500;
     font-size:1rem; 
     color: #f3f5f8;
     font-style: italic;
     opacity: 0.7;
 }
 
-#link-sub-2{
+#link-sub-2 a{
+    padding-left: 5px;
     font-size: 0.8em;
     font-family: 'Syne', sans-serif;
+    opacity: 0.7;
+    font-weight: 500;
 
 }
 
@@ -109,9 +114,10 @@ h3{
 
  #sideNav .navbar-nav .nav-item .nav-link{
      opacity: 0.75;
-     font-weight:100;
-     letter-spacing: 0.1em;
+     font-weight:500;
+     letter-spacing: 0.15em;
      text-transform:uppercase;    
+     padding-left: 2px;
 }
 
 #sideNav .navbar-toggler:focus{
@@ -138,7 +144,7 @@ h3{
 
 #sideNav .navbar-nav .nav-item .nav-link:hover{
      color: #3dc9b3; 
-     padding-left: 5px; 
+     padding-left: 8px; 
      transition: 0.5s;
 }
     
@@ -233,15 +239,17 @@ a:active,a:focus,a:hover{
  }
 
  .link-item p {
+     padding-left: 5px;
      margin-bottom: 2px;
      font-size: 0.9em;
+     opacity: 0.8;
  }
 
  #sideNav .navbar-nav .nav-item .nav-link{
-     font-family: 'Ubuntu', sans-serif ;
-     color: #f3f5f8;   
+    font-family: 'Ubuntu', sans-serif; 
+    color: #f3f5f8;   
      font-size: 0.9em;
-     line-height: 0.5em;
+     line-height: 0.4em;
  }
 
  #sideNav .navbar-nav .nav-item .nav-link:hover{
@@ -387,6 +395,8 @@ hr{
 }
 
 .member-link img:hover{
+
+    opacity: 1;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -399,9 +409,10 @@ hr{
 }
 
 .small-title{
-    font-weight: 500;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
     color: #f3f5f8;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 .skill-set i{
@@ -418,6 +429,12 @@ hr{
 
 .copyright-link{
     padding-bottom: 1em;
+}
+
+.paper-details{
+    padding-left: 15px;
+    min-width: 50%;
+    max-width: 75%;
 }
 
 
