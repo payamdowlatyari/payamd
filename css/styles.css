@@ -158,25 +158,30 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .inner { padding-top: 10px; }
 
 .inner, .fadeInUp{ 
-	padding-left: 0;
-	padding-right: 0;  
+	padding-left: 5px;
+	padding-right: 5px;  
 	font-size: 2em; 
 	color: #f3f5f8; 
 	opacity: 0.5;
 	font-family: 'Syne', sans-serif;
-	padding-top: 0.5em;
 	line-height: 0.8em;
 }
 
 #main-title{
-	 padding-top: 0.5em;
-	 font-size: 3.5em; 
+	 padding-top: 0.3em;
+	 font-size: 3.75em; 
 	 font-weight: 900; 
 	 font-family: 'Syne', sans-serif;
 	 letter-spacing: -0.05em; 
 	 color: #f3f5f8; 
 	 opacity: 0.5;
 	 line-height: 0.8em;
+}
+
+#portfolio-title{
+	color: #3dc9b3;
+	opacity: 0.75;
+	line-height: 1.05em;
 }
 
 .bottom-section{ 
@@ -186,9 +191,9 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 /* ==========================================================================
 Navigation
 ========================================================================== */
-nav { background: url('../assets/img/website-design-background-1.jpg'); background-repeat: no-repeat; background-size: cover; margin-top: 0; margin-bottom: 0;  padding-left: 1em; width: 100%; background-attachment: fixed;}
-nav a { opacity: 0.7; text-transform: uppercase; color:#f3f5f8; display: inline-block; padding: 20px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 0; position: relative; }
-nav a:hover, nav a:focus { text-decoration: none; color: #3dc9b3; transition: 1s; } 
+nav { background: url('../assets/img/felix-besombes-EzrHLVd83h0-unsplash.jpg'); background-repeat: no-repeat; background-size: cover; margin-top: 0; margin-bottom: 0;  padding-left: 2em; width: 100%; background-attachment: fixed;}
+nav a { opacity: 0.6; text-transform: uppercase; color:#f3f5f8; display: inline-block; padding: 10px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; padding-left: 5px; position: relative; }
+nav a:hover, nav a:focus { text-decoration: none; color: #f3f5f8; transition: 1s; } 
 #nav-toggle { position: absolute; right: 5px; top: 0; border: none;}
 #nav-toggle { cursor: pointer; padding: 10px 35px 16px 0px; border: none;}
 #nav-toggle span, #nav-toggle span:before, #nav-toggle span:after { cursor: pointer; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; -o-border-radius: 1px; height: 5px; width: 35px; background: #f3f5f8; position: absolute;  display: block; content: '';}
@@ -201,14 +206,14 @@ nav a:hover, nav a:focus { text-decoration: none; color: #3dc9b3; transition: 1s
 #nav-toggle.active span:after { transform: translateY(-10px) rotate(-45deg); -webkit-transform: translateY(-10px) rotate(-45deg); -ms-transform: translateY(-10px) rotate(-45deg); top: 10px; }
 .navicon { position: relative; height: 26px; opacity: 0.5;}
 .indicator { position: absolute; right: 0 !important; }
-.pull { display: none; }
-.pull a{ font-weight: 900; letter-spacing: 0.2em; }
+.pull a{ font-weight: 900; letter-spacing: 0.1em;  font-size: 1.1em; opacity: 0.7; }
+.pull a:hover {opacity: 1; color: #f3f5f8; transition: 1s;}
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero ,.container { padding-right: 20px; padding-left: 20px; }
-.hero { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; background-attachment: fixed;}
-.hero h1 { font-size: 50px; letter-spacing: 6px; margin: 5px; font-weight: bolder;}
+.hero ,.container { padding-right: 30px; padding-left: 30px; }
+.hero { background: url('../assets/img/felix-besombes-EzrHLVd83h0-unsplash.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 30px 0 30px 0; height: 100vh; background-attachment: fixed;}
+.hero h1 { font-size: 50px; letter-spacing: 6px; margin: 5px; font-weight: 900;}
 .hero h1 span { color: #f3f5f8; display: inline-block; }
 .hero p { opacity: 0.7; letter-spacing: 0.2em; text-transform: capitalize;  font-size: 1em; font-weight: 900;  line-height: 1em; }
 .learn-more-btn { background: #f3f5f8; color: #000000; opacity: 0.5; padding: 5px 10px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #000000; text-transform: uppercase; letter-spacing: 0.3em; display: inline-block;  font-weight: 900; margin-top: 5px; width: 15em;}
@@ -218,14 +223,15 @@ Hero
 
 .arrow-down i{
 	font-size: 2em;
+	line-height: 0.5em;
 	color: #f3f5f8; 
 	animation-duration: 3s;
  	animation-name: slidein;
-  	animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
 }
 
 .arrow-down i:hover {	
-	color: #3dc9b3; 
+	color: #f3f5f8; 
 }
 
 @keyframes slidein {
@@ -233,10 +239,10 @@ Hero
 	  opacity: 0.1;
 	}
 	50% {
-	  opacity: 0.3;
+	  opacity: 0.4;
 	}
 	100% {
-	  opacity: 0.5;
+	  opacity: 0.7;
 	}
 }
 
@@ -244,7 +250,6 @@ Hero
 Intro
 ========================================================================== */
 /* .intro { background: url('../assets/img/hardware-macbook-iphone-office-wallpaper-preview.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; background-attachment: fixed;} */
-
 .intro { background: #f0f2f4;  min-height: 100vh;}
 .intro p { margin: 30px 0 0;  opacity: 1;}
 .LI-profile-badge{ margin-top: 30px;} 
@@ -255,14 +260,14 @@ h1.arrow { font-size: 15px; text-transform: uppercase; color: #353535; letter-sp
 /* ==========================================================================
 Features
 ========================================================================== */
-/* .features { background: url('../assets/img/keyboard-computer-keys-white.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; background-attachment: fixed;} */
+/* .features { background: url('../assets/img/hardware-macbook-iphone-office-wallpaper-preview.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; height: 100vh; background-attachment: fixed;} */
 
 .features { background: #f0f2f4; min-height: 100vh;}
 .features-wrapper, .team-wrapper { padding-top: 3em; }
 .features-wrapper .service-box{ padding: 2em;}
 .features-wrapper .service-box:hover {box-shadow: 0.5px 0.5px 30px 0px #a1a9b0; transition: 1s; }
 .shadow { text-shadow: rgb(55, 181, 161) 1px 1px, rgb(55, 181, 161) 2px 2px, rgb(55, 181, 161) 3px 3px, rgb(55, 181, 161) 4px 4px, rgb(55, 181, 161) 5px 5px, rgb(55, 181, 161) 6px 6px, rgb(55, 181, 161) 7px 7px, rgb(55, 181, 161) 8px 8px, rgb(55, 181, 161) 9px 9px, rgb(55, 181, 161) 10px 10px, rgb(55, 181, 161) 11px 11px, rgb(55, 181, 161) 12px 12px, rgb(55, 182, 162) 13px 13px, rgb(55, 183, 163) 14px 14px, rgb(56, 184, 164) 15px 15px, rgb(56, 185, 165) 16px 16px, rgb(56, 186, 166) 17px 17px, rgb(57, 187, 167) 18px 18px, rgb(57, 188, 168) 19px 19px, rgb(57, 189, 169) 20px 20px, rgb(58, 191, 170) 21px 21px, rgb(58, 192, 171) 22px 22px, rgb(58, 193, 172) 23px 23px, rgb(59, 194, 173) 24px 24px, rgb(59, 195, 174) 25px 25px, rgb(59, 196, 175) 26px 26px, rgb(60, 197, 176) 27px 27px, rgb(60, 198, 177) 28px 28px, rgb(60, 199, 178) 29px 29px, rgb(61, 201, 179) 30px 30px; }
-.icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #3dc9b3; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto; }
+.icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; opacity: 0.9; background: #3dc9b3; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto; }
 /* ==========================================================================
 iPhone Section
 ========================================================================== */
@@ -270,14 +275,14 @@ iPhone Section
 .iphone:hover { background-color: #242830; transition: .3s;}
 .fluid-white { width: 50%; background: #f3f5f8; float: right; height: 100%; z-index: 2; padding-bottom: 20px;}
 .responsive-services { position: relative; }
-/* #responsive{ padding-top: 0px; background: #242830;} */
+#responsive{ padding-top: 0px; background: #242830;}
 /* ==========================================================================
 blog Section
 ========================================================================== */
 /* ==========================================================================
 Swag
 ========================================================================== */
-.swag { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0; background-attachment: fixed; }
+.swag { background: url('../assets/img/felix-besombes-EzrHLVd83h0-unsplash.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0; background-attachment: fixed; }
 .swag h1 {
 	animation: infinite;
 	animation-name: qt-think;  animation-duration: 3s ; 
@@ -298,7 +303,6 @@ Swag
 	  }
 
 
-
 /* .swag { background: url('../img/design-bg.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 30px 0; background-attachment: fixed;} */
 .swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 8px; opacity: 0.7; }
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
@@ -317,13 +321,13 @@ Portfolio
 .effects .img:last-child { margin-right: 0; }
 .effects .img img { display: block; margin: 0; padding: 0; height: auto; }
 .overlay { display: block; position: absolute; z-index: 20; overflow: hidden; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; }
-a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index: 100; width: 45px; height: 45px; font-size: 20px; font-weight: 700; color: #f3f5f8; line-height: 45px; text-align: center; cursor: pointer; }
+a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index: 100; width: 45px; height: 45px; font-size: 20px; font-weight: 900; color: #f3f5f8; line-height: 45px; text-align: center; cursor: pointer; }
 a.close-overlay.hidden { display: none; }
 a.expand { display: block; position: absolute; z-index: 100; text-align: center; color: #ffffff; font-weight: 600; font-size: 14px; text-transform: uppercase; line-height: 30px; }
 .overlay-effect .img i { font-size: 3em; }
-.overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0.8; background: #242830;  border-radius: 10px;}
+.overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0.75; background: #242830;  border-radius: 10px;}
 .overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%; margin: 0 auto 0 auto; }
-.overlay-effect .img.hover .overlay { height: 100%; opacity: 0.2; transition: 1s; box-shadow: 0.5px 0.5px 10px 1px #242830;}
+.overlay-effect .img.hover .overlay { height: 100%; opacity: 0.1; transition: 1s; box-shadow: 0.5px 0.5px 10px 1px #242830;}
 .img img { width: -webkit-calc(100%) !important; width: calc(100% ) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); }
 .img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0);  }
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 50px; }
@@ -340,7 +344,7 @@ Subscribe
 CTA
 ========================================================================== */
 .ignite-bar {background-color: #f3f5f8; padding: 50px; }
-.ignite-cta { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 60px; padding-bottom: 80px; background-attachment: fixed;}
+.ignite-cta { background: url('../assets/img/felix-besombes-EzrHLVd83h0-unsplash.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 60px; padding-bottom: 80px; background-attachment: fixed;}
 .sch-meeting h1{
 	animation: infinite;
 	animation-name: sch-meet;  
@@ -401,7 +405,7 @@ Contact
 Footer
 ========================================================================== */
 footer a { color: #a1a9b0;}
-footer { background: url('../assets/img/website-design-background-1.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed;}
+footer { background: url('../assets/img/felix-besombes-EzrHLVd83h0-unsplash.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed;}
 footer { padding: 30px 0 30px; }
 footer p { color: #fff; }
 ul.legals { list-style: none; color: #fff; line-height: 25px; }

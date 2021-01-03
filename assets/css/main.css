@@ -113,7 +113,7 @@ input, select, textarea {
 		-moz-transition: border-color 0.5s ease-in-out;
 		-webkit-transition: border-color 0.5s ease-in-out;
 		-ms-transition: border-color 0.5s ease-in-out;
-		transition: border-color 0.3s ease-in-out;
+		transition: border-color 0.5s ease-in-out;
 		color: #a1a9b0;
 		text-decoration: none ;
 		outline: 0;
@@ -218,7 +218,7 @@ input, select, textarea {
 /* BG */
 
 #main {
-background-image: url('/assets/img/website-design-background-1.jpg');
+background-image: url('/assets/img/laptop-notebook-technology-music.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 -ms-background-size: cover;
@@ -259,7 +259,7 @@ background-size: cover;
 
 .start-button:hover{
 	opacity: 1;
-	transition: 0.3s;
+	transition: 0.5s;
 }
 
 .logo-code{
@@ -351,7 +351,7 @@ background-size: cover;
 	right: 0;
 	bottom: 0;
 	background-color: transparent;
-	background-image: url('/assets/img/website-design-background-1.jpg');
+	background-image: url('/assets/img/keyboard-letter-wallpaper-preview.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
