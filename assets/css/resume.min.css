@@ -2,7 +2,7 @@ body{
     padding-top:54px;
     color:#a1a9b0; 
     background: #242830;
-    background-image: url('/assets/img/felix-besombes-F7E2_IQZu9k-unsplash.jpg');
+    background-image: url('/assets/img/pexels-marta-branco-1194713.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -78,8 +78,9 @@ h3{
     padding-left: 5px;
     font-size: 0.9em;
     font-family: 'Ubuntu', sans-serif; 
-    opacity: 0.7;
-    font-weight: 700;
+    opacity: 0.75;
+    font-weight: 500;
+    letter-spacing: 0.1em;
 
 }
 
@@ -120,8 +121,12 @@ h3{
      padding-left: 2px;
 }
 
+#sideNav .navbar-toggler{
+    border: none;
+}
+
 #sideNav .navbar-toggler:focus{
-    color:#f3f5f8;
+    color:#f3f5f8;   
     opacity: 0.75;
 }
 
@@ -163,7 +168,7 @@ h3{
 #sideNav .navbar-brand .img-profile{
     max-width:10rem;
     max-height:10rem;
-    border:0.25rem solid rgba(255,255,255,0.8);
+    border: 0.25rem solid rgba(255,255,255,0.3);
 }
     
 #sideNav .navbar-collapse{
@@ -200,13 +205,22 @@ section.resume-section{
 }
     
 section.resume-section .resume-item .resume-date{min-width:none}
+section.resume-section .resume-item { 
+    border-radius: 3px; 
+    margin: 5px;   
+}
+
+section.resume-section .resume-item:hover {
+    /* box-shadow: 0.5px 0px 3px 0px #a1a9b0; transition: 0.5s; */
+    
+}
 
 @media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}
 
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
 .bg-primary{  
-    background-image: url('/assets/img/felix-besombes-F7E2_IQZu9k-unsplash.jpg');
+    background-image: url('/assets/img/pexels-marta-branco-1194713.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -217,13 +231,13 @@ section.resume-section .resume-item .resume-date{min-width:none}
     color:#a1a9b0!important; 
     text-transform: capitalize; 
     text-decoration: none;
+    padding: 10px;
 }
 
 a{
     color:#f3f5f8; 
     opacity: 0.8; 
     text-decoration: none; 
-
 }
 
 a:active,a:focus,a:hover{ 
@@ -263,22 +277,20 @@ a:active,a:focus,a:hover{
     font-family: 'Ubuntu', sans-serif; 
     letter-spacing: 0.1rem;
     text-transform: uppercase;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
     color: #3dc9b3;
     opacity: 0.8;
 }
 
 .nav-col{
      color: #f3f5f8;
-     font-weight: 100;
      border: none;
 }
 
 p{
      font-size: 0.8rem;
 	 font-family: 'Syne', sans-serif;
-
 }
 
  .fullName{
