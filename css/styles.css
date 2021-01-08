@@ -166,8 +166,8 @@ h2::after { content: "   "; border: solid 1px #3dc9b3; display: block; width: 35
 }
 
 #main-title{
-	 padding-top: 0.5em;
-	 font-size: 3.9em; 
+	 padding: 0.2em;
+	 font-size: 3.7em; 
 	 font-weight: 900; 
 	 font-family: 'Syne', sans-serif;
 	 letter-spacing: -0.05em; 
@@ -189,7 +189,7 @@ h2::after { content: "   "; border: solid 1px #3dc9b3; display: block; width: 35
 /* ==========================================================================
 Navigation
 ========================================================================== */
-nav { background: url('../assets/img/jared-brashier-6WPcf5D1XdA-unsplash.jpg'); background-repeat: no-repeat; background-size: cover; margin-top: 0; margin-bottom: 0;  top:0; width: 100%; background-attachment: fixed; }
+nav { background: url('../assets/img/jared-brashier-6WPcf5D1XdA-unsplash.jpg'); background-repeat: no-repeat; background-size: cover; margin-top: 0; margin-bottom: 0;  top:0; left: 0; width: 100%; background-attachment: fixed; padding:1em}
 nav a { opacity: 0.5; text-transform: uppercase; color:#f3f5f8; display: inline-block; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease;}
 nav a:hover, nav a:focus { text-decoration: none; color: #f3f5f8; transition: 1s; opacity: 1;} 
 #nav-toggle { position: absolute; right: 5px; top: 0; border: none;}
@@ -205,7 +205,7 @@ nav a:hover, nav a:focus { text-decoration: none; color: #f3f5f8; transition: 1s
 .navicon { position: relative; height: 26px; opacity: 0.5;}
 .indicator { position: absolute; right: 0 !important; }
 .pull {position: fixed; z-index: 100;}
-.pull a{ font-weight: 900; font-size: 2em; opacity: 0.5; padding: 0.5em;}
+.pull a{ font-weight: 900; font-size: 1em; opacity: 0.5; padding: 0.3em;}
 .pull a:hover {opacity: 1; color: #f3f5f8; transition: 1s;}
 /* ==========================================================================
 Hero
@@ -268,14 +268,6 @@ Features
 .shadow { text-shadow: rgb(55, 181, 161) 1px 1px, rgb(55, 181, 161) 2px 2px, rgb(55, 181, 161) 3px 3px, rgb(55, 181, 161) 4px 4px, rgb(55, 181, 161) 5px 5px, rgb(55, 181, 161) 6px 6px, rgb(55, 181, 161) 7px 7px, rgb(55, 181, 161) 8px 8px, rgb(55, 181, 161) 9px 9px, rgb(55, 181, 161) 10px 10px, rgb(55, 181, 161) 11px 11px, rgb(55, 181, 161) 12px 12px, rgb(55, 182, 162) 13px 13px, rgb(55, 183, 163) 14px 14px, rgb(56, 184, 164) 15px 15px, rgb(56, 185, 165) 16px 16px, rgb(56, 186, 166) 17px 17px, rgb(57, 187, 167) 18px 18px, rgb(57, 188, 168) 19px 19px, rgb(57, 189, 169) 20px 20px, rgb(58, 191, 170) 21px 21px, rgb(58, 192, 171) 22px 22px, rgb(58, 193, 172) 23px 23px, rgb(59, 194, 173) 24px 24px, rgb(59, 195, 174) 25px 25px, rgb(59, 196, 175) 26px 26px, rgb(60, 197, 176) 27px 27px, rgb(60, 198, 177) 28px 28px, rgb(60, 199, 178) 29px 29px, rgb(61, 201, 179) 30px 30px; }
 .icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; opacity: 0.75; background: #3dc9b3; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto; }
 /* ==========================================================================
-iPhone Section
-========================================================================== */
-/* .iphone { width: 50%; background: #242830; float: left; height: 100%; z-index: 1;  min-height: 80vh;}
-.iphone:hover { background-color: #242830; transition: .3s;}
-.fluid-white { width: 50%; background: #f3f5f8; float: right; height: 100%; z-index: 2; padding-bottom: 20px;}
-.responsive-services { position: relative; }
-#responsive{ padding-top: 0px; background: #242830;} */
-/* ==========================================================================
 blog Section
 ========================================================================== */
 /* ==========================================================================
@@ -292,7 +284,7 @@ Swag
 	
 @keyframes qt-think{		
 		0% {
-		opacity: 0.75;	
+			opacity: 0.75;	
 		}	
 		50% {
 			opacity: 0.25;	
@@ -345,8 +337,8 @@ CTA
 /* .ignite-bar {background-color: #f3f5f8; padding: 0px; } */
 .ignite-cta { background: url('../assets/img/jared-brashier-6WPcf5D1XdA-unsplash.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding-bottom: 10em; background-attachment: fixed;}
 .sch-meeting h1{
-	padding-top: 2.5em;
-	font-size: 2em;
+	padding-top: 2em;
+	font-size: 1.75em;
 	letter-spacing: 0.1em;
 	animation: infinite;
 	animation-name: sch-meet;  
@@ -392,7 +384,7 @@ ul.social-buttons li:last-child { margin-right: 0; }
 /* ==========================================================================
 Memberships
 ========================================================================== */
-.membership{ background: url('../assets/img/jared-brashier-6WPcf5D1XdA-unsplash.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding-bottom: 5em; background-attachment: fixed; min-height:  20vh; max-height: 100vh;}
+.membership{ background: url('../assets/img/jared-brashier-6WPcf5D1XdA-unsplash.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding-bottom: 5em; background-attachment: fixed; min-height:  40vh; }
 .mem-icon{ margin: auto; padding: 20px;}
 .buttom-page a{ padding: 30px; margin-bottom: 50px; margin-top: 50px;}
 .buttom-page img{ margin-bottom: 20px; margin-top: 20px;}
@@ -412,7 +404,7 @@ Contact
 Footer
 ========================================================================== */
 footer { background: url('../assets/img/jared-brashier-6WPcf5D1XdA-unsplash.jpg');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed;}
-footer { padding: 30px 0 30px; }
+footer { padding: 2em 0 2em; }
 footer p { color: #f3f5f8;  opacity: 0.75;}
 ul.legals { list-style: none; color: #fff; line-height: 25px; }
 ul.legals li { display: inline-block; }
