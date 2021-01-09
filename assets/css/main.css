@@ -218,7 +218,7 @@ input, select, textarea {
 /* BG */
 
 #main {
-background-image: url('/assets/img/felix-besombes-EzrHLVd83h0-unsplash.jpg');
+background-image: url('/assets/img/website-design-background-1.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 -ms-background-size: cover;
@@ -255,11 +255,11 @@ background-size: cover;
 	padding: 1em;
 	font-size: 2em;
 	right: 2em;
+	
 }
 
 .start-button:hover{
-	opacity: 1;
-	transition: 0.5s;
+	transition: 1s;
 }
 
 .logo-code{
@@ -274,17 +274,34 @@ background-size: cover;
 .card:hover { opacity: .5;}
 .links{
 	margin: 0 auto;
-	padding-top: 30vh;
+	padding-top: 25vh;
 	font-size: 2em;
 	text-transform: uppercase;
 	text-align: center;
-	font-weight: 900;
+	font-weight: 500;
 	display: block;
 }
 
 .links p{
-	margin: 0.1em;
+	margin: 1em;
 	height: 15vh;
+	letter-spacing: 0.1em;
+}
+
+.links p:hover{
+	letter-spacing: 0.1em;
+}
+
+.nav-link a{
+	color: #242830;
+	opacity: 0.4;
+}
+
+.nav-link a:hover{
+	color: #242830;
+	opacity: 0.8;
+	transition: 1s;
+	font-weight: 500;
 }
 
 .start-schedule a{
@@ -301,17 +318,17 @@ background-size: cover;
 	padding-right: 1em;
 }
 .schedule{
-	font-size: 1.1em;
+	font-size: 1em;
 	letter-spacing: 0.2em;
-	line-height: 2em;
+	line-height: 2.5em;
 	font-weight: 500;
 	padding-top: 2em;
 	text-align: left;
-	padding-left: 2em;	
+	padding-left: 2.5em;	
 }
 
 .schedule a {
-	padding: 1em;
+	padding: 0.5em;
 }
 
 .start-schedule a:hover{
@@ -332,12 +349,8 @@ background-size: cover;
 }
 
 .top-page i:hover {
-	color: #fff;
+	color: #f3f5f8;
 	transition: 0.5s;
-}
-
-#my-name{
-	opacity: 1;
 }
 
 #overlay-2 {
@@ -351,7 +364,7 @@ background-size: cover;
 	right: 0;
 	bottom: 0;
 	background-color: transparent;
-	background-image: url('/assets/img/felix-besombes-F7E2_IQZu9k-unsplash.jpg');
+	background-image: url('/assets/img/wallpapertip_keyboard-wallpaper_23921.jpg');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -382,9 +395,6 @@ background-size: cover;
 	}
   }
 
-  .fa{
-	  width: 5em;
-  }
 
 	#bg {
 		-moz-animation: bg 60s linear infinite;
@@ -723,7 +733,7 @@ background-size: cover;
 		text-align: center;
 		top: -1em;
 		vertical-align: middle;
-		width: 90%;
+		width: 80%;
 	}
 
 	.top-page{
@@ -753,7 +763,7 @@ background-size: cover;
 	  }
 
 		#header h1 {
-			font-size: 4em;
+			font-size: 4.5em;
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1.2em;
@@ -1187,13 +1197,13 @@ background-size: cover;
 	/* Header */
 
 		#header h1 {
-			font-size: 2.5em;
+			font-size: 3em;
 			line-height: 1.5em;
 
 		}
 
 		#header p {
-			font-size: 1em;
+			font-size: 1.4em;
 		}
 
 		#header nav {

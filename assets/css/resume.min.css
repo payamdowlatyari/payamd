@@ -1,8 +1,8 @@
 body{
-    padding-top:54px;
+    padding-top:10em;
     color:#a1a9b0; 
     background: #242830;
-    background-image: url('/assets/img/macbook-pro-keyboard.jpg');
+    background-image: url('/assets/img/wallpapertip_keyboard-wallpaper-hd_265449.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -53,14 +53,14 @@ h1{
 h2{
     font-family: 'Ubuntu', sans-serif; 
     color: #3dc9b3; 
-    opacity: 0.5; 
+    opacity: 0.75; 
     font-weight: 900;
     font-size:2rem; 
     text-transform: uppercase;
 }
 
 h3{
-    opacity: 0.7;
+    opacity: 0.75;
     font-size:1.1rem; 
     line-height:2.5rem;
 }
@@ -71,7 +71,7 @@ h3{
     font-size:1rem; 
     color: #f3f5f8;
     font-style: italic;
-    opacity: 0.7;
+    opacity: 0.75;
 }
 
 #link-sub-2 a{
@@ -81,7 +81,12 @@ h3{
     opacity: 0.75;
     font-weight: 500;
     letter-spacing: 0.1em;
+    text-transform: uppercase;
 
+}
+
+#link-sub-2 a:hover{
+    opacity: 1;
 }
 
  .social-icons a{
@@ -101,7 +106,7 @@ h3{
 }
 
 .social-icons a:hover{
-     opacity: 0.7; 
+     opacity: 1; 
      transition: .5s; 
 }
 
@@ -127,7 +132,7 @@ h3{
 
 #sideNav .navbar-toggler:focus{
     color:#f3f5f8;   
-    opacity: 0.75;
+    opacity: 1;
 }
 
 @media (min-width:992px){
@@ -148,13 +153,15 @@ h3{
 }
 
 #sideNav .navbar-nav .nav-item .nav-link:hover{
-     color: #3dc9b3; 
+     color: #f3f5f8;
+     opacity: 1; 
      padding-left: 8px; 
      transition: 0.5s;
 }
     
 #sideNav .navbar-nav .nav-item .nav-link:focus{ 
-        color: #3dc9b3;
+        color: #f3f5f8;
+        opacity: 1;
 }
 
 #sideNav .navbar-brand{
@@ -220,7 +227,7 @@ section.resume-section .resume-item:hover {
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
 .bg-primary{  
-    background-image: url('/assets/img/macbook-pro-keyboard.jpg');
+    background-image: url('/assets/img/wallpapertip_keyboard-wallpaper-hd_265449.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -236,14 +243,14 @@ section.resume-section .resume-item:hover {
 
 a{
     color:#f3f5f8; 
-    opacity: 0.8; 
+    opacity: 0.75; 
     text-decoration: none; 
 }
 
 a:active,a:focus,a:hover{ 
 
     opacity: 1;
-    color:#3dc9b3; 
+    color:#f3f5f8; 
     text-emphasis: none; 
     text-decoration: none; 
     transition: .5s; 
@@ -266,11 +273,13 @@ a:active,a:focus,a:hover{
     color: #f3f5f8;   
      font-size: 0.9em;
      line-height: 0.4em;
+     opacity: 0.7;
  }
 
  #sideNav .navbar-nav .nav-item .nav-link:hover{
-    color: #3dc9b3;
+    color: #f3f5f8;
     padding-left: 3px;
+    opacity: 1;
 }
 
 .d-block{
@@ -295,7 +304,7 @@ p{
 
  .fullName{
    color: #f3f5f8;
-   opacity: 0.7;
+   opacity: 0.75;
    text-transform: uppercase;
    font-family: 'Ubuntu', sans-serif; 
    letter-spacing: -1px;
@@ -308,7 +317,7 @@ p{
 
  @keyframes my-name {
     from {top: -50px; opacity: 0;}
-    to {top: 0px; opacity: 0.7;}
+    to {top: 0px; opacity: 0.75;}
 }
 
 .sub-name{
@@ -326,7 +335,7 @@ p{
  
 @keyframes my-sub-name {
      from {left: 100px; opacity: 0.1;}
-     to {left: 0px; opacity: 0.7;}
+     to {left: 0px; opacity: 0.5;}
 }
 
 .job-description{
@@ -375,26 +384,24 @@ hr{
     position: relative;
     margin-bottom: 0;
     text-align: right;
-    padding-right: 4em;
+    padding-right: 3em;
     animation-name: tu-logo;
     animation-duration: 3s;  
-    animation-fill-mode: backwards;    
+    animation-fill-mode: backwards;  
+    padding: 1em;  
 }
 
 @keyframes tu-logo {
-    from {top: -100px; opacity: 0;}
-    to {top: 0px; opacity: 0.7;}
+    from {top: -150px; opacity: 0;}
+    to {top: 0px; opacity: 1;}
   }
 
 .side-logo img{
-    width: 100px;
-    opacity: 0.7;
+    width: 6em;
+    opacity: 1;
+    padding: 0.5em;
 }
 
-.side-logo img:hover {
-    opacity: 0.7;
-    transition: 0.3s;
-}
 
 .member-link a{
     padding: 3.5rem;
