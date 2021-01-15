@@ -270,8 +270,8 @@ nav a:hover, nav a:focus { text-decoration: none; color: #f3f5f8; transition: 1s
 #nav-toggle.active span:after { transform: translateY(-10px) rotate(-45deg); -webkit-transform: translateY(-10px) rotate(-45deg); -ms-transform: translateY(-10px) rotate(-45deg); top: 10px; }
 .navicon { position: relative; height: 26px; opacity: 0.5;}
 .indicator { position: absolute; right: 0 !important; }
-.pull {position: fixed; z-index: 100;}
-.pull i{font-size: 2em; padding-left:0.2em ; padding-right: 0.2em; color: #3dc9b3; opacity: 0.75;}
+.pull {position: fixed; z-index: 100; text-align: left;}
+.pull i{font-size: 2em; padding-left:0.1em ; padding-right: 0.1em; color: #f3f5f8; opacity: 0.75;}
 .pull a{ font-weight: 900; font-size: 0.9em; opacity: 0.5; padding: 0.5em; }
 .pull a:hover {opacity: 1; color: #f3f5f8; transition: 1s;}
 /* ==========================================================================
