@@ -74,6 +74,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+footer p {
+	padding: 10px;
+}
+
 /* Basic */
 
 	html {
@@ -284,12 +288,14 @@ background-size: cover;
 
 .links p{
 	margin: 1em;
-	height: 15vh;
-	letter-spacing: 0.1em;
+	height: 10vh;
+	
 }
 
 .links p:hover{
-	letter-spacing: 0.1em;
+	letter-spacing: 0.02em;
+	transition: 0.5s;
+	
 }
 
 .nav-link a{
@@ -300,8 +306,9 @@ background-size: cover;
 .nav-link a:hover{
 	color: #242830;
 	opacity: 0.8;
-	transition: 1s;
+	transition: 0.5s;
 	font-weight: 500;
+	letter-spacing: 0.02em;
 }
 
 .start-schedule a{
@@ -934,7 +941,7 @@ background-size: cover;
 	#footer {
 		bottom: 0;
 		cursor: default;
-		height: 5em;
+		height: 6em;
 		left: 0;
 		line-height: 2.5em;
 		position: absolute;
@@ -1377,48 +1384,73 @@ form{
 
 .sub-btn{
     background-color: #3dc9b3;
-    opacity: 0.7;
+    opacity: 0.75;
     color: #242830;
-    width: 120px;
+    width: 165px;
     min-width: 60px;
     margin: 5px;
-    border: none;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
 }
 .sub-btn:hover{
     background-color: #a1a9b0;
     color: #242830;
-    transition: 0.5s;
+    transition: 0.75s;
 }
 
 .res-btn{
     background-color: #a1a9b0;
     color: #242830;
-    opacity: 0.7;
-    width: 120px;
+    opacity: 0.75;
+    width: 165px;
     min-width: 60px;
     margin: 5px;
-    border: none;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
 }
 
 .res-btn:hover{
     color: #f3f5f8;
-    transition: 0.5s;
+    transition: 0.75s;
 }
 
 #about-link a{
 	color: #f3f5f8;
 	opacity: 0.75;
-	font-weight: bolder;
-	padding: 0.2em;
+	font-weight: 900;
+	padding: 0.25em;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
 }
 
 #about-link a:hover{
-	color: #fff;
-	padding: 0.2em;
+	color: #f3f5f8;
+	padding: 0.25em;
 	transition: 0.5s;
 	opacity: 1;
 }
 
+.calendly {
+	float: right;
+	position: relative;
+	padding: 1.5em;
+	padding-right: 3em;
+	display: inline-block;
+	font-size: 1.25em;
+	font-weight: 500;
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
+}
+
+.calendly a{
+	
+}
+
+.calendly a:hover {
+	transition: 1s;
+}
 
 
 

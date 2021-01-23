@@ -75,10 +75,10 @@ h3{
 }
 
 #link-sub-2 a{
-    padding: .25em;
+    padding: .45em;
     font-size: 1.5em;
     font-family: 'Ubuntu', sans-serif; 
-    opacity: 0.75;
+    opacity: 0.65;
     font-weight: 100;
     text-transform: uppercase;
     
@@ -302,6 +302,7 @@ p{
 }
 
  .fullName{
+     line-height: 1.1em;
    color: #a1a9b0;
    opacity: 0.5;
    text-transform: uppercase;
@@ -397,13 +398,10 @@ hr{
 
 .side-logo img{
     width: 6em;
-    opacity: 1;
     padding: 0.5em;
     visibility: visible;
    
 }
-
-
 
 .member-link a{
     padding: 3.5rem;
