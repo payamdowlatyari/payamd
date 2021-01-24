@@ -129,6 +129,7 @@ footer p {
 			border-color: transparent;		
 			color: #fff;
 			text-decoration: none;
+			opacity: 1;
 		}
 
 
@@ -222,7 +223,7 @@ footer p {
 /* BG */
 
 #main {
-background-image: url('/assets/img/jared-brashier-6WPcf5D1XdA-unsplash.jpg');
+background-image: url('/assets/img/website-parallax-background-C.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 -ms-background-size: cover;
@@ -290,25 +291,31 @@ background-size: cover;
 	margin: 1em;
 	height: 10vh;
 	
+	
 }
 
 .links p:hover{
 	letter-spacing: 0.02em;
 	transition: 0.5s;
+	/* box-shadow: 0.5px 0.5px 1000px 1000px #242830; */
+	
 	
 }
 
 .nav-link a{
 	color: #242830;
-	opacity: 0.4;
+	opacity: 0.65;
 }
 
 .nav-link a:hover{
-	color: #242830;
-	opacity: 0.8;
-	transition: 0.5s;
+	color: #f3f5f8;
+	background: #242830;
+	opacity: 0.75;
+	transition: 1s;
 	font-weight: 500;
 	letter-spacing: 0.02em;
+	box-shadow: 0.5px 0.5px 100px 1000px #242830;
+	 
 }
 
 .start-schedule a{
@@ -1440,12 +1447,12 @@ form{
 	display: inline-block;
 	font-size: 1.25em;
 	font-weight: 500;
-	letter-spacing: 0.025em;
+	letter-spacing: 0.02em;
 	text-transform: uppercase;
 }
 
 .calendly a{
-	
+	border-radius: 3px;
 }
 
 .calendly a:hover {
