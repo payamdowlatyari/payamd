@@ -2,7 +2,7 @@ body{
     padding-top:10em;
     color:#a1a9b0; 
     background: #a1a9b0;
-    background-image: url('/assets/img/texture-gradient-simple-background-blue-wallpaper-preview.jpg');
+    background-image: url('/assets/img/h8HAkP.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -235,7 +235,7 @@ section.resume-section .resume-item:hover {
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
 .bg-primary{  
-    background-image: url('/assets/img/texture-gradient-simple-background-blue-wallpaper-preview.jpg');
+    background-image: url('/assets/img/h8HAkP.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
