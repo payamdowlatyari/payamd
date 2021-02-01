@@ -2,7 +2,7 @@ body{
     padding-top:10em;
     color:#a1a9b0; 
     background: #a1a9b0;
-    background-image: url('/assets/img/li-lin-rXlSSZ83Oew-unsplash.jpg');
+    background-image: url('/assets/img/li-lin-rXlSSZ83Oew-unsplash.jpg') !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -225,8 +225,7 @@ section.resume-section .resume-item:hover {
 @media (min-width:992px){section.resume-section{padding-top:2rem!important;padding-bottom:2rem!important}}
 
 .bg-primary{  
-    background: #f3f5f8;
-    background-image: url('/assets/img/li-lin-rXlSSZ83Oew-unsplash.jpg');    
+    background-image: url('/assets/img/li-lin-rXlSSZ83Oew-unsplash.jpg') !important;    
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -317,7 +316,7 @@ p{
 }
 
  @keyframes my-name {
-    from {top: -250px; opacity: 0; font-size: 10em;}
+    from {top: -300px; opacity: 0; font-size: 10em;}
     to {top: 0px; opacity: 0.75; font-size: 3em;}
 }
 
@@ -336,8 +335,8 @@ p{
 }
  
 @keyframes my-sub-name {
-     from {left: 300px; opacity: 0;}
-     to {left: 0px; opacity: 0.5;}
+     from {left: 300px; opacity: 0; font-size: 4em;}
+     to {left: 0px; opacity: 0.5; font-size: 2em;}
 }
 
 .job-description{

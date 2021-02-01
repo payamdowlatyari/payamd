@@ -108,7 +108,7 @@ footer p {
 		color: #f3f5f8;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
-		font-weight: 300 !important;
+		font-weight: 500 !important;
 		letter-spacing: -0.02em;
 		line-height: 1.75em;
 	}
@@ -119,7 +119,7 @@ footer p {
 		-ms-transition: border-color 0.5s ease-in-out;
 		transition: border-color 0.5s ease-in-out;
 		color: #f3f5f8;
-		opacity: 0.5;
+		opacity: 0.6;
 		text-decoration: none ;
 		outline: 0;
 		padding-left: 5px;
@@ -210,10 +210,10 @@ footer p {
 	}
 
 	#wrapper {
-		-moz-animation: wrapper 5s forwards;
-		-webkit-animation: wrapper 5s forwards;
-		-ms-animation: wrapper 5s forwards;
-		animation: wrapper 5s forwards;
+		-moz-animation: wrapper 3s forwards;
+		-webkit-animation: wrapper 3s forwards;
+		-ms-animation: wrapper 3s forwards;
+		animation: wrapper 3s forwards;
 		height: 100%;
 		left: 0;
 		opacity: 0;
@@ -226,6 +226,8 @@ footer p {
 
 #main {
 background-image: url('/assets/img/contactus-background.png');
+-webkit-animation: kenburns-top 1.5s ease-out reverse both;
+animation: kenburns-top 1.5s ease-out reverse both;
 background-repeat: no-repeat;
 background-attachment: fixed;
 -ms-background-size: cover;
@@ -234,6 +236,36 @@ background-attachment: fixed;
 -webkit-background-size: cover;
 background-size: cover;
 }
+
+@-webkit-keyframes kenburns-top {
+	0% {
+	  -webkit-transform: scale(1) translateY(0);
+			  transform: scale(1) translateY(0);
+	  -webkit-transform-origin: 50% 16%;
+			  transform-origin: 50% 16%;
+	}
+	100% {
+	  -webkit-transform: scale(1.25) translateY(-15px);
+			  transform: scale(1.25) translateY(-15px);
+	  -webkit-transform-origin: top;
+			  transform-origin: top;
+	}
+  }
+  @keyframes kenburns-top {
+	0% {
+	  -webkit-transform: scale(1) translateY(0);
+			  transform: scale(1) translateY(0);
+	  -webkit-transform-origin: 50% 16%;
+			  transform-origin: 50% 16%;
+	}
+	100% {
+	  -webkit-transform: scale(1.25) translateY(-15px);
+			  transform: scale(1.25) translateY(-15px);
+	  -webkit-transform-origin: top;
+			  transform-origin: top;
+	}
+  }
+  
 
 #title{
 	font-family: 'Ubuntu', sans-serif;
@@ -378,11 +410,11 @@ background-size: cover;
 	background-size: cover;
 	z-index: 2;
 	cursor: pointer;
-	-moz-animation: overlay 0.5s 0.5s forwards;
-		-webkit-animation: overlay 0.5s 0.5s forwards;
-		-ms-animation: overlay 0.5s 0.5s forwards;
-		animation: overlay 0.5s 0.5s forwards;
-	
+	-moz-animation: overlay-2 0.5s 0.5s forwards;
+	-webkit-animation: overlay-2 0.5s 0.5s forwards;
+	-ms-animation: overlay-2 0.5s 0.5s forwards;
+	animation: overlay-2 0.5s 0.5s forwards;
+
   }
 
   @keyframes overlay-2 {
@@ -1313,18 +1345,47 @@ background-size: cover;
 
 .links {
    position: relative;
-   animation-name: main-menu;
-   animation-duration: 3s;  
-   animation-fill-mode: forwards;
+   -webkit-animation: main-menu 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+   animation: main-menu 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   }
 
 .links a:hover{
 	transition: 1s;	
 }
+
+@-webkit-keyframes main-menu {
+	0% {
+	  letter-spacing: 1em;
+	  -webkit-transform: translateZ(400px);
+			  transform: translateZ(400px);
+	  opacity: 0;
+	}
+	40% {
+	  opacity: 0.6;
+	}
+	100% {
+	  -webkit-transform: translateZ(0);
+			  transform: translateZ(0);
+	  opacity: 1;
+	}
+  }
   
   @keyframes main-menu {
-	from {top: -50px; opacity: 0;}
-    to {top: 0px; opacity: 0.75;}
+	
+	0% {
+		letter-spacing: 1em;
+		-webkit-transform: translateZ(400px);
+				transform: translateZ(400px);
+		opacity: 0;
+	  }
+	  40% {
+		opacity: 0.6;
+	  }
+	  100% {
+		-webkit-transform: translateZ(0);
+				transform: translateZ(0);
+		opacity: 1;
+	  }
  
   }
 
@@ -1445,6 +1506,8 @@ form{
 	text-transform: uppercase;
 }
 
+
+  
 .calendly a{
 	opacity: 0.75;
 	letter-spacing: 0.1em;
@@ -1459,7 +1522,44 @@ form{
 .calendly img{
 	width: 3em;
 	opacity: 0.75;	
+	-webkit-animation: rotate-hor-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+	animation: rotate-hor-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
 }
+
+@-webkit-keyframes flip-scale-2-hor-bottom {
+	0% {
+	  -webkit-transform: translateY(0) rotateX(0) scale(1);
+			  transform: translateY(0) rotateX(0) scale(1);
+	  -webkit-transform-origin: 50% 100%;
+			  transform-origin: 50% 100%;
+	}
+	50% {
+	  -webkit-transform: translateY(50%) rotateX(90deg) scale(2);
+			  transform: translateY(50%) rotateX(90deg) scale(2);
+	  -webkit-transform-origin: 50% 50%;
+			  transform-origin: 50% 50%;
+	}
+	100% {
+	  -webkit-transform: translateY(100%) rotateX(180deg) scale(1);
+			  transform: translateY(100%) rotateX(180deg) scale(1);
+	  -webkit-transform-origin: 50% 0%;
+			  transform-origin: 50% 0%;
+	}
+  }
+@keyframes rotate-hor-top {
+	0% {
+	  -webkit-transform: rotateX(0);
+			  transform: rotateX(0);
+	  -webkit-transform-origin: top;
+			  transform-origin: top;
+	}
+	100% {
+	  -webkit-transform: rotateX(-360deg);
+			  transform: rotateX(-360deg);
+	  -webkit-transform-origin: top;
+			  transform-origin: top;
+	}
+  }
 
 .calendly img:hover {
 	transition: 1s;	
