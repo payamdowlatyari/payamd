@@ -2057,3 +2057,15 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+
+
+
+		#header i {
+			width: 2em;
+			font-size: large;
+			color: #a0a0a1;
+		}
+
+		#header i:hover {
+			color: #ffffff;
+		}
