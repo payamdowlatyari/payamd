@@ -13,6 +13,7 @@ body{
     animation-name: bg-page;
     animation-duration: 3s;
 }
+ 
 
 @keyframes bg-page {
     0%{
@@ -57,6 +58,7 @@ h2{
     font-weight: 900;
     font-size:2.5em; 
     text-transform: uppercase;
+    
 }
 
 h3{
@@ -223,6 +225,7 @@ section.resume-section .resume-item:hover {
 @media (min-width:992px){section.resume-section{padding-top:2rem!important;padding-bottom:2rem!important}}
 
 .bg-primary{  
+    background-color: transparent !important ;
     background-image: url('/assets/img/li-lin-rXlSSZ83Oew-unsplash.jpg') !important;    
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -416,7 +419,8 @@ hr{
 
 .member-link img:hover{
     opacity: 1;
-}
+}  
+  
 
 .freelance-logo-bottom{
     opacity: 0.5;
@@ -454,8 +458,45 @@ hr{
 
 .link-item img{
     width: 3em;
+    opacity: 0.75;	
+	-webkit-animation: rotate-hor-top 3s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+	animation: rotate-hor-top 3s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
 }
 
+@-webkit-keyframes rotate-hor-top {
+	0% {
+	  -webkit-transform: translateY(0) rotateX(0) scale(1);
+			  transform: translateY(0) rotateX(0) scale(1);
+	  -webkit-transform-origin: 50% 100%;
+			  transform-origin: 50% 100%;
+	}
+	50% {
+	  -webkit-transform: translateY(50%) rotateX(90deg) scale(2);
+			  transform: translateY(50%) rotateX(90deg) scale(2);
+	  -webkit-transform-origin: 50% 50%;
+			  transform-origin: 50% 50%;
+	}
+	100% {
+	  -webkit-transform: translateY(100%) rotateX(180deg) scale(1);
+			  transform: translateY(100%) rotateX(180deg) scale(1);
+	  -webkit-transform-origin: 50% 0%;
+			  transform-origin: 50% 0%;
+	}
+  }
+@keyframes rotate-hor-top {
+	0% {
+	  -webkit-transform: rotateX(0);
+			  transform: rotateX(0);
+	  -webkit-transform-origin: top;
+			  transform-origin: top;
+	}
+	100% {
+	  -webkit-transform: rotateX(-360deg);
+			  transform: rotateX(-360deg);
+	  -webkit-transform-origin: top;
+			  transform-origin: top;
+	}
+  }
 
 
 
