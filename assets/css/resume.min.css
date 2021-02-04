@@ -1,7 +1,7 @@
 body{
     padding-top:10em;
     color:#a1a9b0; 
-    background: #a1a9b0;
+    background: transparent;
     background-image: url('/assets/img/li-lin-rXlSSZ83Oew-unsplash.jpg') !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -12,6 +12,7 @@ body{
     background-size: cover;
     animation-name: bg-page;
     animation-duration: 3s;
+   
 }
  
 
@@ -19,10 +20,6 @@ body{
     0%{
         opacity: 0;
         
-    }
-    50%{
-        opacity: 0.5;
-       
     }
     100%{
         opacity: 1;
