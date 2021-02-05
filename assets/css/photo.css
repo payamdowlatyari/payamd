@@ -141,11 +141,6 @@ input, select, textarea {
 		width: device-width;
 	}
 
-	body {
-		-ms-overflow-style: inherit;
-		overflow: inherit;
-	}
-
 	@media screen and (max-width: 480px) {
 
 		html, body {
@@ -202,7 +197,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -246,6 +241,7 @@ input, select, textarea {
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
+			
 		}
 
 	h1 {
@@ -1069,16 +1065,16 @@ input, select, textarea {
 		background: rgba(36, 38, 41, 0.75);
 		bottom: 0;
 		left: 0;
-		max-height: calc(90vh - 4em);
+		max-height: calc(90vh - 5em);
 		overflow-y: auto;
 		position: fixed;
 		width: 100%;
 		z-index: 10001;
-		min-height: 100%;
-		/* background-image: url('/assets/img/portfolio-background.jpg'); */
+		min-height: 100vh;
+		/* background-image: url('/assets/img/portfolio-background.jpg');
 		background-repeat: no-repeat;
 		background-attachment: fixed;
-		background-size: cover;
+		background-size: cover; */
 	}
 
 		.panel.active {
@@ -1541,6 +1537,7 @@ input, select, textarea {
 						letter-spacing: 0.1em;
 						padding: 0 1.65em;
 						text-transform: uppercase;
+			
 					}
 
 						#header nav > ul > li a.icon:before {
