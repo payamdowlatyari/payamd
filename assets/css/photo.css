@@ -142,7 +142,8 @@ input, select, textarea {
 	}
 
 	body {
-		-ms-overflow-style: scrollbar;
+		-ms-overflow-style: inherit;
+		overflow: inherit;
 	}
 
 	@media screen and (max-width: 480px) {
@@ -408,8 +409,7 @@ input, select, textarea {
 			input[type="button"]:hover:active,
 			button:hover:active,
 			.button:hover:active {
-				background-color: rgba(52, 165, 142, 0.15);
-			
+				background-color: rgba(52, 165, 142, 0.15);			
 				color: #3dc9b3 !important;
 			}
 
@@ -1066,7 +1066,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: rgba(36, 38, 41, 0.675);
+		background: rgba(36, 38, 41, 0.75);
 		bottom: 0;
 		left: 0;
 		max-height: calc(90vh - 4em);
@@ -1075,7 +1075,7 @@ input, select, textarea {
 		width: 100%;
 		z-index: 10001;
 		min-height: 100%;
-		background-image: url('/assets/img/portfolio-background.jpg');
+		/* background-image: url('/assets/img/portfolio-background.jpg'); */
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-size: cover;
@@ -1583,11 +1583,11 @@ input, select, textarea {
 			}
 
 			#header h1 {
-				font-size: 0.9em;
+				font-size: 1em;
 			}
 
 			#header nav > ul > li a {
-				font-size: 0.9em;
+				font-size: 1em;
 				padding: 0 1.15em;
 			}
 
@@ -2058,11 +2058,9 @@ input, select, textarea {
 			color: inherit;
 		}
 
-
-
 		#header i {
 			width: 2em;
-			font-size: large;
+			font-size: larger;
 			color: #a0a0a1;
 		}
 
