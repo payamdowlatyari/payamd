@@ -142,7 +142,7 @@ Global Styles
 a { color: #a1a9b0; opacity: 1; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s;  word-spacing: 1px;}
 a:hover, a:focus { color: #f3f5f8; text-decoration: none; }
 p { color: #a1a9b0; opacity: 1; word-spacing: 1px; line-height: 25px; font-size: 14px; }
-h2 { font-size: 15px; color: #3dc9b3; opacity: 0.5; text-transform: uppercase; font-weight: bold; }
+h2 { font-size: 16px; color: #3dc9b3; opacity: 0.5; text-transform: uppercase; font-weight: bold; }
 h2::after { content: "   "; border: solid 1px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 75px 0 75px }
 .dark-bg { background: #242830; }
@@ -175,12 +175,14 @@ h2::after { content: "   "; border: solid 1px #3dc9b3; display: block; width: 35
 	 color: #f3f5f8; 
 	 opacity: 0.5;
 	 line-height: 0.8em;
+
 }
 
 #portfolio-title{
 	color: #3dc9b3;
 	opacity: 0.75;
 	line-height: 1.05em;
+	letter-spacing: -0.05em;
 	animation: tracking-in-contract 8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 @keyframes tracking-in-contract {
@@ -321,7 +323,7 @@ Portfolio
 ========================================================================== */
 .portfolio { background: url('../assets/img/do-stunning-background-videos-for-your-website.png');  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 50px 0 50px 0; min-height: 100vh; background-attachment: fixed;}
 .effects { padding-left: 0px; }
-.effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; }
+.effects .img { position: relative; margin-bottom: 30px; position: relative; z-index: 1; overflow: hidden; }
 .effects .img:nth-child(n) { margin-right: 5px; border-radius: 10px;}
 .effects .img:first-child { margin-left: 0; }
 .effects .img:last-child { margin-right: 0; }
@@ -329,10 +331,10 @@ Portfolio
 .overlay { display: block; position: absolute; z-index: 20; overflow: hidden; transition: all 0.5s; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; }
 a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index: 100; width: 45px; height: 45px; font-size: 20px; font-weight: 900; color: #f3f5f8; line-height: 45px; text-align: center; cursor: pointer; }
 a.close-overlay.hidden { display: none; }
-a.expand { display: block; position: absolute; z-index: 100; text-align: center; color: #f3f5f8; font-weight: 600; font-size: 16px; text-transform: uppercase; line-height: 30px; opacity: 0.75;}
+a.expand { display: block; position: absolute; z-index: 100; text-align: center; color: #f3f5f8; font-weight: 600; font-size: 18px; text-transform: uppercase; line-height: 30px; opacity: 0.75;}
 .overlay-effect .img i { font-size: 1em; }
 .overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0.8; background: #000000;  border-radius: 5px;}
-.overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 45%; margin: 0 auto 0 auto; }
+.overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 45%; margin: 0 auto 0 auto;}
 .overlay-effect .img.hover .overlay { height: 100%; opacity: 0.5; transition: 1.5s;}
 .img img { width: -webkit-calc(100%) !important; width: calc(100% ) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0); }
 .img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(0, 0, 0);  }
