@@ -222,11 +222,12 @@ section.resume-section{
 section.resume-section .resume-item .resume-date{min-width:none}
 section.resume-section .resume-item { 
     border-radius: 5px; 
-    margin: 10px;   
+    margin: 15px;   
+    
 }
 
 section.resume-section .resume-item:hover {
-    box-shadow: 0.5px 0.5px 5px 0px #f3f5f8; transition: 0.5s;
+    box-shadow: 0.5px 0.5px 5px 1px #a1a9b0; transition: 0.5s;
 }
 
 @media (min-width:768px){section.resume-section{min-height:90vh}section.resume-section .resume-item .resume-date{min-width:18rem}}
@@ -249,7 +250,7 @@ section.resume-section .resume-item:hover {
 }
 
 a{
-    color:#f3f5f8; 
+    color:#a1a9b0; 
     opacity: 0.65; 
     text-decoration: none; 
 }
