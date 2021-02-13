@@ -227,7 +227,7 @@ section.resume-section .resume-item {
 }
 
 section.resume-section .resume-item:hover {
-    box-shadow: 0.5px 0.5px 5px 1px #a1a9b0; transition: 0.5s;
+    box-shadow: 0.5px 0.5px 5px 0.5px #a1a9b0; transition: 0.75s;
 }
 
 @media (min-width:768px){section.resume-section{min-height:90vh}section.resume-section .resume-item .resume-date{min-width:18rem}}
