@@ -471,6 +471,13 @@ hr{
     max-width: 75%;
 }
 
+.rounded-img{  
+    width: 15em;
+    height: 15em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
 
 
 
