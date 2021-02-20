@@ -221,15 +221,13 @@ section.resume-section{
     
 section.resume-section .resume-item .resume-date{min-width:none}
 section.resume-section .resume-item { 
-    box-shadow: 0.5px 0.5px 5px 0.5px #a1a9b0; transition: 1s;
-
+    box-shadow: 0.5px 0.5px 15px 0.5px #a1a9b0;
     border-radius: 5px; 
-    margin: 15px;   
-    
+    margin: 25px;  
 }
 
 section.resume-section .resume-item:hover {
-    box-shadow: 0.5px 0.5px 15px 0.5px #a1a9b0; transition: 1s;
+    box-shadow: 0.5px 0.5px 30px 1px #a1a9b0; transition: 0.5s;
 }
 
 @media (min-width:768px){section.resume-section{min-height:90vh}section.resume-section .resume-item .resume-date{min-width:18rem}}
@@ -478,13 +476,22 @@ hr{
     border-radius: 5px;
 }
 
+.rounded-img:hover {
+    box-shadow: 0.5px 0.5px 10px 1px #a1a9b0;
+    transition: 0.5s;
+}
+
 .rounded-img-paper{  
     width: 25em;
     height: 15em;
     margin: 2em;
     border-radius: 5px;
-}
+}   
 
+.rounded-img-paper:hover {
+    box-shadow: 0.5px 0.5px 10px 1px #a1a9b0;
+    transition: 0.5s;
+}
 
 
 
