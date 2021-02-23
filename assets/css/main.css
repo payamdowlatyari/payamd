@@ -274,15 +274,6 @@ background-size: cover;
 	text-align: justify;
 }
 
-#sub-title{
-	letter-spacing: 0.25em;
-	line-height: 1rem;
-	text-align: left;
-	padding-left: 0.5em;
-	font-weight: 900;
-	opacity: 0.5;
-}
-
 #social-links{
 	float: left;
 }
@@ -772,7 +763,7 @@ background-size: cover;
 		opacity: 0;
 		position: relative;
 		text-align: center;
-		top: -1em;
+		top: 1em;
 		vertical-align: middle;
 		width: 80%;
 	}
@@ -804,17 +795,17 @@ background-size: cover;
 	  }
 
 		#header h1 {
-			font-size: 4.5em;
+			font-size: 4em;
 			font-weight: 900;
 			letter-spacing: -0.025em;
-			line-height: 1.2em;
+			line-height: 1em;
 			color: #f3f5f8;
-			opacity: 0.65;
+			opacity: 0.6;
 		}
 
 		#header p {
 			font-family: 'Ubuntu', sans-serif;
-			font-size: 1.75em;
+			font-size: 2.5em;
 			font-weight: 900;
 			margin: 1em 0 0.5em 0;
 			opacity: 0.5;
@@ -1397,10 +1388,10 @@ background-size: cover;
 }
 
 #about-sec p{
-	font-weight: 100;
+	font-weight: 900;
 	color: #f3f5f8;
     font-size: small;
-	opacity: 0.75;
+	opacity: 0.65;
 	line-height: 1.5em;
 }
 
@@ -1480,16 +1471,17 @@ form{
 
 #about-link a{
 	color: #f3f5f8;
-	opacity: 0.75;
+	opacity: 0.65;
 	font-weight: 900;
-	padding: 0.3em;
+	padding: 0.2em;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
 }
 
 #about-link a:hover{
 	color: #f3f5f8;
-	padding: 0.3em;
+	border-bottom: solid 0.1px;
+	padding: 0.2em;
 	transition: 0.75s;
 	opacity: 1;
 }
@@ -1497,14 +1489,14 @@ form{
 .calendly {
 	float: right;
 	position: relative;
-	padding: 2em;
+	padding: 1em;
 	display: inline-block;
 }
  
 .calendly a{
 	opacity: 0.6;
-	letter-spacing: 0.2em;
-	font-size: 0.9em;	
+	letter-spacing: 0.1em;
+	font-size: 0.95em;	
 	font-family: 'Ubuntu', sans-serif;
 	margin: 2em;
 }
@@ -1560,6 +1552,23 @@ form{
 	transition: 1s;	
 	opacity: 0.9;
 }
+
+
+.ml4 {
+	position: relative;
+	letter-spacing: 0.25em;
+	font-weight: 900;
+	padding-bottom: 1em;
+	opacity: 0.5;
+  }
+  .ml4 .letters {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	top: 0;
+	right: 0;
+	opacity: 0; 
+  }
 
 
 
