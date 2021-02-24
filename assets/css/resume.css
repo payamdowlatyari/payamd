@@ -332,10 +332,10 @@ p{
     font-size: 2em;
 }
  
-@keyframes my-sub-name {
+/* @keyframes my-sub-name {
      from {left: 100px; opacity: 0; }
      to {left: 0px; opacity: 0.5; }
-}
+} */
 
 .job-description{
      padding-left: 20px;
@@ -494,6 +494,11 @@ hr{
 	  -webkit-transform-origin: top;
 			  transform-origin: top;
 	}
+  }
+
+
+  .ml3 {
+    font-weight: 900;
   }
 
 

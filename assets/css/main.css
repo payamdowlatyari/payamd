@@ -328,7 +328,7 @@ background-size: cover;
 .nav-link a:hover{
 	color: #f3f5f8;
 	background: #242830;
-	opacity: 0.85;
+	opacity: 0.8;
 	transition: 0.5s;
 	font-weight: 500;
 	letter-spacing: 0.02em;
@@ -795,20 +795,20 @@ background-size: cover;
 	  }
 
 		#header h1 {
-			font-size: 4em;
+			font-size: 3em;
 			font-weight: 900;
 			letter-spacing: -0.025em;
 			line-height: 1em;
 			color: #f3f5f8;
-			opacity: 0.6;
+			opacity: 0.5;
 		}
 
 		#header p {
 			font-family: 'Ubuntu', sans-serif;
-			font-size: 2.5em;
+			font-size: 3em;
 			font-weight: 900;
 			margin: 1em 0 0.5em 0;
-			opacity: 0.5;
+			opacity: 0.4;
 			color: #3dc9b3;
 		}
 
@@ -1564,6 +1564,7 @@ form{
   .ml4 .letters {
 	position: absolute;
 	margin: auto;
+	text-transform: uppercase;
 	left: 0;
 	top: 0;
 	right: 0;

@@ -93,9 +93,9 @@
 					<br> Payam<br>Dowlatyari
 				</h1>
 				<p class="ml4">
-					<span class="letters letters-1">Software Engineer</span>
-					<span class="letters letters-2">UX Designer</span>
-					<span class="letters letters-3">Photographer</span>
+					<span class="letters letters-1">Web Development</span>
+					<span class="letters letters-2">UX Design</span>
+					<span class="letters letters-3">Photography</span>
 				</p>
 
 				<div class="calendly">
@@ -145,14 +145,12 @@
 			document.getElementById("overlay-2").style.display = "none";
 		}
 
-
-
 		var ml4 = {};
 		ml4.opacityIn = [0, 0.6];
-		ml4.scaleIn = [0.5, 1];
-		ml4.scaleOut = 5;
+		ml4.scaleIn = [0.2, 1];
+		ml4.scaleOut = 3;
 		ml4.durationIn = 1000;
-		ml4.durationOut = 1000;
+		ml4.durationOut = 500;
 		ml4.delay = 2000;
 
 		anime.timeline({ loop: true })
@@ -195,8 +193,8 @@
 			}).add({
 				targets: '.ml4',
 				opacity: 0,
-				duration: 500,
-				delay: 500
+				duration: 0,
+				delay: 0
 			});
 
 	</script>
