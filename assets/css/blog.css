@@ -482,17 +482,16 @@ hr{
 }
 
 .rounded-img-paper{  
-    width: 25em;
-    height: 15em;
-    margin: 2em;
+    width: 16em;
+    height: 10em;
+    margin: 1em;
     border-radius: 5px;
 }   
 
 .rounded-img-paper:hover {
-    box-shadow: 0.5px 0.5px 10px 1px #a1a9b0;
+    box-shadow: 0.5px 0.5px 15px 1px #a1a9b0;
     transition: 0.5s;
 }
-
 
 
 

@@ -128,7 +128,7 @@ footer p {
 	}
 
 		a:hover {
-			border-color: transparent;	
+			border-color: transparent;		
 			color: #f3f5f8;
 			text-decoration: none;
 			opacity: 1;
@@ -805,7 +805,7 @@ background-size: cover;
 
 		#header p {
 			font-family: 'Ubuntu', sans-serif;
-			font-size: 3em;
+			font-size: 4em;
 			font-weight: 900;
 			margin: 1em 0 0.5em 0;
 			opacity: 0.4;
@@ -1496,18 +1496,18 @@ form{
 .calendly a{
 	opacity: 0.6;
 	letter-spacing: 0.1em;
-	font-size: 0.95em;	
+	font-size: 1em;	
 	font-family: 'Ubuntu', sans-serif;
 	margin: 2em;
 }
 
 .calendly a:hover {
 	transition: 1s;
-	opacity: 0.9;
+	opacity: 0.8;
 }
 
 .calendly img{
-	width: 4em;
+	width: 3em;
 	opacity: 0.75;	
 	-webkit-animation: rotate-hor-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
 	animation: rotate-hor-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;

@@ -1,8 +1,8 @@
 body{
     padding-top:10em;
     color:#a1a9b0; 
-    background: #a1a9b0;
-    background-image: url('/assets/img/h8HAkP.jpg');
+    background: #f3f5f8;
+    /* background-image: url('/assets/img/h8HAkP.jpg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     -ms-background-size: cover;
@@ -234,8 +234,10 @@ section.resume-section .resume-item:hover {
 @media (min-width:992px){section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
 .bg-primary{  
-    background-color: transparent !important ;
-    background-image: url('/assets/img/h8HAkP.jpg');
+    background-color: #242830 !important;
+    opacity: 0.85;
+    /* background-color: transparent !important ;
+    background-image: url('/assets/img/h8HAkP.jpg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -250,15 +252,15 @@ section.resume-section .resume-item:hover {
 }
 
 a{
-    color:#f3f5f8; 
-    opacity: 0.65; 
+    color:#a1a9b0; 
+    opacity: 0.75; 
     text-decoration: none; 
 }
 
 a:active,a:focus,a:hover{ 
 
     opacity: 1;
-    color:#f3f5f8; 
+    color:#a1a9b0; 
     text-emphasis: none; 
     text-decoration: none; 
     transition: .5s; 
