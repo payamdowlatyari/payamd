@@ -1555,16 +1555,15 @@ form{
 
 
 .ml4 {
-	position: relative;
-	letter-spacing: 0.25em;
+	position: relative;	
+	letter-spacing: 0.1em;
 	font-weight: 900;
 	padding-bottom: 1em;
 	opacity: 0.5;
   }
   .ml4 .letters {
 	position: absolute;
-	margin: auto;
-	text-transform: uppercase;
+	font-family: 'Syncopate', sans-serif;
 	left: 0;
 	top: 0;
 	right: 0;

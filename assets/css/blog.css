@@ -237,8 +237,6 @@ section.resume-section .resume-item:hover {
 .bg-primary{  
     background-color: #242830 !important;
     opacity: 0.85;
-    /* background-color: transparent !important ; */
-    /* background-image: url('/assets/img/9jq4gr.jpg'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -259,7 +257,6 @@ a{
 }
 
 a:active,a:focus,a:hover{ 
-
     opacity: 1;
     color:#a1a9b0; 
     text-emphasis: none; 
