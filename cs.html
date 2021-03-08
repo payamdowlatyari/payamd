@@ -522,6 +522,326 @@
           </p>
         </div>
       </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Binary Tree</h3>
+          <p class="job-description">
+            A binary tree is a tree data structure in which each parent node can have at most two children.<br>
+            Types of Binary Tree<br><br>
+            Full Binary Tree<br>
+            A full Binary tree is a special type of binary tree in which every parent node/internal node has either two
+            or no children.<br><br>
+            Perfect Binary Tree<br>
+            A perfect binary tree is a type of binary tree in which every internal node has exactly two child nodes and
+            all the leaf nodes are at the same level.<br><br>
+            Complete Binary Tree<br>
+            A complete binary tree is just like a full binary tree, but with two major differences<br>
+            1. Every level must be completely filled<br>
+            2. All the leaf elements must lean towards the left.<br>
+            3. The last leaf element might not have a right sibling i.e. a complete binary tree doesn't have to be a
+            full
+            binary tree.<br><br>
+            Degenerate or Pathological Tree<br>
+            A degenerate or pathological tree is the tree having a single child either left or right.<br><br>
+            Skewed Binary Tree<br>
+            A skewed binary tree is a pathological/degenerate tree in which the tree is either dominated by the left
+            nodes or the right nodes. Thus, there are two types of skewed binary tree: left-skewed binary tree and
+            right-skewed binary tree.<br><br>
+            Balanced Binary Tree<br>
+            It is a type of binary tree in which the difference between the left and the right subtree for each node is
+            either 0 or 1.<br><br>
+            Binary Tree Representation<br>
+            A node of a binary tree is represented by a structure containing a data part and two pointers to other
+            structures of the same type.
+
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Binary Search Tree (BST)</h3>
+          <p class="job-description">
+            Binary search tree is a data structure that quickly allows us to maintain a sorted list of numbers.<br>
+            - It is called a binary tree because each tree node has a maximum of two children.<br>
+            - It is called a search tree because it can be used to search for the presence of a number in O(log(n))
+            time.<br><br>
+            The properties that separate a binary search tree from a regular binary tree is<br>
+
+            1. All nodes of left subtree are less than the root node<br>
+            2. All nodes of right subtree are more than the root node<br>
+            3. Both subtrees of each node are also BSTs i.e. they have the above two properties
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">AVL Tree</h3>
+          <p class="job-description">
+            AVL tree is a self-balancing binary search tree in which each node maintains extra information called a
+            balance factor whose value is either -1, 0 or +1.<br>
+            AVL tree got its name after its inventor Georgy Adelson-Velsky and Landis.<br><br>
+            Balance Factor<br>
+            Balance factor of a node in an AVL tree is the difference between the height of the left subtree and that of
+            the right subtree of that node.<br>
+            Balance Factor = (Height of Left Subtree - Height of Right Subtree) or (Height of Right Subtree - Height of
+            Left Subtree)<br><br>
+            The self balancing property of an avl tree is maintained by the balance factor. The value of balance factor
+            should always be -1, 0 or +1.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">B-tree</h3>
+          <p class="job-description">
+            B-tree is a special type of self-balancing search tree in which each node can contain more than one key and
+            can have more than two children. It is a generalized form of the binary search tree.<br>
+            The need for B-tree arose with the rise in the need for lesser time in accessing the physical storage media
+            like a hard disk. The secondary storage devices are slower with a larger capacity. There was a need for such
+            types of data structures that minimize the disk accesses.<br>
+            Other data structures such as a binary search tree, avl tree, etc can store only one key in
+            one node. If you have to store a large number of keys, then the height of such trees becomes very large and
+            the access time increases.<br>
+            However, B-tree can store many keys in a single node and can have multiple child nodes. This decreases the
+            height significantly allowing faster disk accesses.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">B+ Tree</h3>
+          <p class="job-description">
+            A B+ tree is an advanced form of a self-balancing tree in which all the values are present in the leaf
+            level.<br>
+            An important concept to be understood before learning B+ tree is multilevel indexing. In multilevel
+            indexing, the index of indices is created as in figure below. It makes accessing the data easier and
+            faster.<br>
+            B+ Tree Applications<br>
+            - Multilevel Indexing<br>
+            - Faster operations on the tree (insertion, deletion, search)<br>
+            - Database indexing
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Graph Data Stucture</h3>
+          <p class="job-description">
+            A graph data structure is a collection of nodes that have data and are connected to other nodes.<br>
+            Every relationship is an edge from one node to another. Whether you post a photo, join a group, like a page,
+            etc., a new edge is created for that relationship. <br> <br>
+            More precisely, a graph is a data structure (V, E) that consists of <br>
+            - A collection of vertices V <br>
+            - A collection of edges E, represented as ordered pairs of vertices (u,v)
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Graph Terminology</h3>
+          <p class="job-description">
+            Adjacency: A vertex is said to be adjacent to another vertex if there is an edge connecting them. Vertices 2
+            and 3 are not adjacent because there is no edge between them.<br>
+            Path: A sequence of edges that allows you to go from vertex A to vertex B is called a path. 0-1, 1-2 and 0-2
+            are paths from vertex 0 to vertex 2.<br>
+            Directed Graph: A graph in which an edge (u,v) doesn't necessarily mean that there is an edge (v, u) as
+            well. The edges in such a graph are represented by arrows to show the direction of the edge.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Graph Representation</h3>
+          <p class="job-description">
+            Graphs are commonly represented in two ways:<br>
+            1. Adjacency Matrix:
+            An adjacency matrix is a 2D array of V x V vertices. Each row and column represent a vertex.<br>
+            2. Adjacency List:
+            An adjacency list represents a graph as an array of linked lists.
+            The index of the array represents a vertex and each element in its linked list represents the other vertices
+            that form an edge with the vertex.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Spanning Tree and Minimum Spanning Tree</h3>
+          <p class="job-description">
+            A spanning tree is a sub-graph of an undirected connected graph, which includes all the vertices of the
+            graph with a minimum possible number of edges. If a vertex is missed, then it is not a spanning tree.<br>
+            The edges may or may not have weights assigned to them.<br>
+            A minimum spanning tree is a spanning tree in which the sum of the weight of the edges is as minimum as
+            possible.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Depth First Search (DFS)</h3>
+          <p class="job-description">
+            Depth first Search or Depth first traversal is a recursive algorithm for searching all the vertices of a
+            graph or tree data structure. Traversal means visiting all the nodes of a graph. <br>
+            The DFS algorithm works as follows:<br>
+            1. Start by putting any one of the graph's vertices on top of a stack.<br>
+            2. Take the top item of the stack and add it to the visited list.<br>
+            3. Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the top
+            of
+            the stack.<br>
+            4. Keep repeating steps 2 and 3 until the stack is empty.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Breadth first search</h3>
+          <p class="job-description">
+            Traversal means visiting all the nodes of a graph. Breadth First Traversal or Breadth First Search is a
+            recursive algorithm for searching all the vertices of a graph or tree data structure.<br>
+            The algorithm works as follows:<br>
+            1. Start by putting any one of the graph's vertices at the back of a queue.<br>
+            2. Take the front item of the queue and add it to the visited list.<br>
+            3. Create a list of that vertex's adjacent nodes. Add the ones which aren't in the visited list to the back
+            of
+            the queue.<br>
+            4. Keep repeating steps 2 and 3 until the queue is empty.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Sorting Algorithms
+          </h3>
+          <p class="job-description">
+            A Sorting Algorithm is used to rearrange a given array or list elements according to a comparison operator
+            on the elements. The comparison operator is used to decide the new order of element in the respective data
+            structure. <br>The most common example we experience every day is sorting clothes or other items on an
+            e-commerce website either by lowest-price to highest, or list by popularity, or some other order.<br><br>
+            Types of Sorting Algorithms:<br>
+            - Quick Sort<br>
+            - Bubble Sort<br>
+            - Merge Sort<br>
+            - Insertion Sort<br>
+            - Selection Sort<br>
+            - Heap Sort<br>
+            - Radix Sort<br>
+            - Bucket Sort
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Linear Search</h3>
+          <p class="job-description">
+            The linear search is the algorithm of choice for short lists, because it’s simple and requires minimal code
+            to implement. The linear search algorithm looks at the first list item to see whether you are searching for
+            it and, if so, you are finished. If not, it looks at the next item and on through each entry in the list.
+            Linear search is the basic search algorithm used in data structures. It is also called as sequential search.
+            Linear search is used to find a particular element in an array. It is not compulsory to arrange an array in
+            any order (Ascending or Descending) as in the case of binary search.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0"> Binary Search</h3>
+          <p class="job-description">
+            Binary Search is one of the most fundamental and useful algorithms in Computer Science. It describes the
+            process of searching for a specific value in an ordered collection.
+            Binary search is a popular algorithm for large databases with records ordered by numerical key.
+            In its simplest form, Binary Search operates on a contiguous sequence with a specified left and right index.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Greedy Algorithm</h3>
+          <p class="job-description">
+            A greedy algorithm is an approach for solving a problem by selecting the best option available at the
+            moment, without worrying about the future result it would bring. In other words, the locally best choices
+            aim at producing globally best results.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Dijkstra's Algorithm</h3>
+          <p class="job-description">
+            Dijkstra's algorithm allows us to find the shortest path between any two vertices of a graph.
+            It differs from the minimum spanning tree because the shortest distance between two vertices might not
+            include all the vertices of the graph.
+            The algorithm uses a greedy approach in the sense that we find the next best solution hoping that the end
+            result is the best solution for the whole problem.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Kruskal's Algorithm</h3>
+          <p class="job-description">
+            Kruskal's algorithm is a minimum spanning tree algorithm that takes a graph as input and finds the subset of
+            the edges of that graph which<br>
+            - Form a tree that includes every vertex<br>
+            - Has the minimum sum of weights among all the trees that can be formed from the graph
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Huffman Coding</h3>
+          <p class="job-description">
+            Huffman Coding is a technique of compressing data to reduce its size without losing any of the details. It
+            was first developed by David Huffman.<br>
+            Huffman Coding is generally useful to compress the data in which there are frequently occurring characters.
+            Huffman coding first creates a tree using the frequencies of the character and then generates code for each
+            character.
+            Once the data is encoded, it has to be decoded. Decoding is done using the same tree.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Dynamic Programming</h3>
+          <p class="job-description">
+            Dynamic Programming is a technique in computer programming that helps to efficiently solve a class of
+            problems that have overlapping subproblems and optimal substructure property.<br>
+            Such problems involve repeatedly calculating the value of the same subproblems to find the optimum solution.
+            Dynamic programming works by storing the result of subproblems so that when their solutions are required,
+            they are at hand and we do not need to recalculate them.<br>
+            This technique of storing the value of subproblems is called memoization.
+            Dynamic programming by memoization is a top-down approach to dynamic programming. By reversing the direction
+            in which the algorithm works i.e. by starting from the base case and working towards the solution, we can
+            also implement dynamic programming in a bottom-up manner.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Recursion vs Dynamic Programming</h3>
+          <p class="job-description">
+            Dynamic programming is mostly applied to recursive algorithms. This is not a coincidence, most optimization
+            problems require recursion and dynamic programming is used for optimization.<br>
+            But not all problems that use recursion can use Dynamic Programming. Unless there is a presence of
+            overlapping subproblems like in the fibonacci sequence problem, a recursion can only reach the solution
+            using a divide and conquer approach.<br>
+            That is the reason why a recursive algorithm like Merge Sort cannot use Dynamic Programming, because the
+            subproblems are not overlapping in any way.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0">Greedy Algorithms vs Dynamic Programming</h3>
+          <p class="job-description">
+            Greedy Algorithms are similar to dynamic programming in the sense that they are both tools for
+            optimization.<br>
+            However, greedy algorithms look for locally optimum solutions or in other words, a greedy choice, in the
+            hopes of finding a global optimum. Hence greedy algorithms can make a guess that looks optimum at the time
+            but becomes costly down the line and do not guarantee a globally optimum.<br>
+            Dynamic programming, on the other hand, finds the optimal solution to subproblems and then makes an informed
+            choice to combine the results of those subproblems to find the most optimum solution.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
   <hr class="m-0">
@@ -1423,6 +1743,50 @@
             Ideating: Creating many ideas in ideation sessions. <br>
             Prototyping: Adopting a hands-on approach in prototyping. <br>
             Testing: Developing a prototype/solution to the problem.
+          </p>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-0">
+        <div class="resume-content">
+          <h3 class="mb-0"> Usability Heuristics for User Interface Design</h3>
+          <p class="job-description">
+            Jakob Nielsen's 10 general principles for interaction design are called "heuristics" because they are
+            broad rules of thumb and not specific usability guidelines. <br>
+            1. Visibility of system status <br>
+            The design should always keep users informed about what is going on, through
+            appropriate feedback within a reasonable amount of time. <br>
+            2. Match between system and the real world <br>
+            The design should speak the users' language. Use words, phrases, and concepts familiar to the user, rather
+            than internal jargon. Follow real-world conventions, making information appear in a natural and logical
+            order. <br>
+            3. User control and freedom <br>
+            Users often perform actions by mistake. They need a clearly marked "emergency exit" to leave the unwanted
+            action without having to go through an extended process. <br>
+            4. Consistency and standards <br>
+            Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow
+            platform and industry conventions. <br>
+            5. Error prevention <br>
+            Good error messages are important, but the best designs carefully prevent problems from occurring in the
+            first place. Either eliminate error-prone conditions, or check for them and present users with a
+            confirmation option before they commit to the action. <br>
+            6. Recognition rather than recall <br>
+            Minimize the user's memory load by making elements, actions, and options visible. The user should not have
+            to remember information from one part of the interface to another. Information required to use the design
+            should be visible or easily retrievable when needed. <br>
+            7. Flexibility and efficiency of use <br>
+            Shortcuts — hidden from novice users — may speed up the interaction for the expert user such that the design
+            can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.
+            8. Aesthetic and minimalist design <br>
+            Interfaces should not contain information which is irrelevant or rarely needed. Every extra unit of
+            information in an interface competes with the relevant units of information and diminishes their relative
+            visibility. <br>
+            9. Help users recognize, diagnose, and recover from errors <br>
+            Error messages should be expressed in plain language, precisely indicate the problem, and
+            constructively suggest a solution. <br>
+            10. Help and documentation <br>
+            It’s best if the system doesn’t need any additional explanation. However, it may be necessary to provide
+            documentation to help users understand how to complete their tasks.
+
           </p>
         </div>
       </div>
