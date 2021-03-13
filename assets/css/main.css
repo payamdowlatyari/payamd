@@ -805,7 +805,7 @@ background-size: cover;
 
 		#header p {
 			font-family: 'Ubuntu', sans-serif;
-			font-size: 4em;
+			font-size: 5em;
 			font-weight: 900;
 			margin: 1em 0 0.5em 0;
 			opacity: 0.4;
@@ -1234,7 +1234,7 @@ background-size: cover;
 		}
 
 		#header p {
-			font-size: 1.4em;
+			font-size: 2em;
 		}
 
 		#header nav {
@@ -1563,7 +1563,7 @@ form{
   }
   .ml4 .letters {
 	position: absolute;
-	font-family: 'Syncopate', sans-serif;
+	font-family: 'Carrois Gothic SC', sans-serif;
 	left: 0;
 	top: 0;
 	right: 0;
