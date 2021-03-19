@@ -808,7 +808,7 @@ background-size: cover;
 			font-size: 5em;
 			font-weight: 900;
 			margin: 1em 0 0.5em 0;
-			opacity: 0.4;
+			opacity: 0.5;
 			color: #3dc9b3;
 		}
 
@@ -1569,6 +1569,12 @@ form{
 	right: 0;
 	opacity: 0; 
   }
+
+  .form-control{
+	  background: transparent;
+  }
+
+
 
 
 
