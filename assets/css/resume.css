@@ -12,7 +12,7 @@ body{
     background-size: cover;
     animation-name: bg-page;
     animation-duration: 3s;
-   
+      
 }
  
 
@@ -417,8 +417,8 @@ hr{
 
 .member-link img:hover{
     opacity: 1;
-}  
-  
+    
+}
 
 .freelance-logo-bottom{
     opacity: 0.5;
