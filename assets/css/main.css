@@ -1480,7 +1480,6 @@ form{
 
 #about-link a:hover{
 	color: #f3f5f8;
-	border-bottom: solid 0.1px;
 	padding: 0.2em;
 	transition: 0.75s;
 	opacity: 1;
