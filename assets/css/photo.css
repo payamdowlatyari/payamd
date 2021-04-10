@@ -1472,7 +1472,7 @@ input, select, textarea {
 		-ms-user-select: none;
 		-webkit-user-select: none;
 		background: #242629;
-		opacity: 0.75;
+		opacity: 1;
 		bottom: -1em;
 		height: 5em;
 		left: 0;
