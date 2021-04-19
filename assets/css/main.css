@@ -272,6 +272,7 @@ background-size: cover;
 	color: #f3f5f8;
 	text-transform: uppercase;
 	text-align: justify;
+	
 }
 
 #social-links{
@@ -795,12 +796,14 @@ background-size: cover;
 	  }
 
 		#header h1 {
-			font-size: 3em;
-			font-weight: 900;
+			font-size: 2em;
+			font-weight: 700;
 			letter-spacing: -0.025em;
 			line-height: 1em;
 			color: #f3f5f8;
-			opacity: 0.5;
+			opacity: 0.6;
+			font-family: 'Ubuntu', sans-serif;
+			text-transform: uppercase;
 		}
 
 		#header p {
@@ -1486,7 +1489,6 @@ form{
 }
 
 .calendly {
-	float: right;
 	position: relative;
 	padding: 1em;
 	display: inline-block;
@@ -1494,15 +1496,15 @@ form{
  
 .calendly a{
 	opacity: 0.5;
-	letter-spacing: 0.1em;
-	font-size: 1em;	
+	letter-spacing: 0em;
+	font-size: 0.9em;	
 	font-family: 'Ubuntu', sans-serif;
-	margin: 1em;
+	margin: 0.5em;
 }
 
 .calendly a:hover {
 	transition: 1s;
-	opacity: 0.8;
+	opacity: 0.9;
 }
 
 .calendly img{
@@ -1552,7 +1554,36 @@ form{
 	opacity: 0.9;
 }
 
+.calendly h1{
+	-webkit-animation: tracking-out-expand 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both;
+	        animation: tracking-out-expand 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) reverse both;
+}
 
+@-webkit-keyframes tracking-out-expand {
+	0% {
+	  opacity: 0.75;
+	}
+	60% {
+	  opacity: 0.5;
+	}
+	100% {
+	  letter-spacing: 1em;
+	  opacity: 0;
+	}
+  }
+  @keyframes tracking-out-expand {
+	0% {
+		opacity: 0.75;
+	  }
+	  60% {
+		opacity: 0.5;
+	  }
+	100% {
+	  letter-spacing: 1em;
+	  opacity: 0;
+	}
+  }
+  
 .ml4 {
 	position: relative;	
 	letter-spacing: 0.1em;
@@ -1573,6 +1604,8 @@ form{
   .form-control{
 	  background: transparent;
   }
+
+
 
 
 

@@ -256,7 +256,9 @@ nav a:hover, nav a:focus { text-decoration: none; color: #f3f5f8; transition: 1s
 
 .indicator { position: absolute; right: 0 !important; }
 
-.pull {position: fixed; z-index: 100; text-align: center; }
+.pull {position: fixed; z-index: 100; 
+	text-align: center;
+ }
 
 .pull i{font-size: 2em; padding-left:0.1em ; padding-right: 0.1em; color: #f3f5f8; opacity: 0.75;}
 
