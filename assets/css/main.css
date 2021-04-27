@@ -796,14 +796,14 @@ background-size: cover;
 	  }
 
 		#header h1 {
-			font-size: 2em;
-			font-weight: 700;
+			font-size: 3.5em;
+			font-weight: 900;
 			letter-spacing: -0.025em;
 			line-height: 1em;
 			color: #f3f5f8;
-			opacity: 0.6;
+			opacity: 0.5;
 			font-family: 'Ubuntu', sans-serif;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 		}
 
 		#header p {
@@ -1256,6 +1256,7 @@ background-size: cover;
 
 	@media screen and (max-width: 480px) {
 
+		
 		/* BG */
 
 			@-moz-keyframes bg {
@@ -1553,6 +1554,10 @@ form{
 	opacity: 0.9;
 }
 
+.main-links a{
+	font-size: 00.8em;
+}
+
 .main-links {
 	padding: 1em;
 	text-transform: uppercase;
@@ -1565,7 +1570,7 @@ form{
 
 @-webkit-keyframes tracking-out-expand {
 	0% {
-	  opacity: 0.75;
+	  opacity: 0.65;
 	}
 	60% {
 	  opacity: 0.5;
@@ -1577,7 +1582,7 @@ form{
   }
   @keyframes tracking-out-expand {
 	0% {
-		opacity: 0.75;
+		opacity: 0.65;
 	  }
 	  60% {
 		opacity: 0.5;

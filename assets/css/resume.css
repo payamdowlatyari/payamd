@@ -45,7 +45,8 @@ h1{
      font-size:3em;
      line-height:3rem; 
      font-weight: 900;
-     text-transform: uppercase;
+     /* font-family: 'Syne', sans-serif; */
+     /* text-transform: uppercase; */
 }
 
 h2{
@@ -218,6 +219,11 @@ section.resume-section .resume-item:hover {
     transition: 1s;    
 }
 
+.nav-item img{
+    opacity: 0.6;
+}
+
+
 @media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}
 
 @media (min-width:992px){section.resume-section{padding-top:2rem!important;padding-bottom:2rem!important}}
@@ -303,7 +309,7 @@ p{
    line-height: 1em;
    color: #a1a9b0;
    opacity: 0.75;
-   text-transform: uppercase;
+   /* text-transform: uppercase; */
    font-family: 'Ubuntu', sans-serif; 
    letter-spacing: -1px;
    font-weight: 900;
@@ -315,7 +321,7 @@ p{
 
  @keyframes my-name {
     from {top: -300px; opacity: 0; font-size: 12em;}
-    to {top: 0px; opacity: 0.75; font-size: 3em;}
+    to {top: 0px; opacity: 0.5; font-size: 4em;}
 }
 
 .sub-name{
