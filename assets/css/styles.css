@@ -71,6 +71,18 @@ sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: b
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 .tab {padding-left: 10px;}
+
+
+#small-resume{
+	font-size: 0.7em;
+	font-family: 'Ubuntu', sans-serif; 
+	letter-spacing: normal;
+	padding-left: 15px;
+}
+
+#small-resume:hover{
+	opacity: 1;
+}
 /* ==========================================================================
 Lists
 ========================================================================== */
