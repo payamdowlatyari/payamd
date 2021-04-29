@@ -349,17 +349,20 @@ background-size: cover;
 	padding-right: 1em;
 }
 .schedule{
-	font-size: 1em;
-	letter-spacing: 0.2em;
+	font-size: 0.8em;
+	letter-spacing: 0.05em;
 	line-height: 2.5em;
 	font-weight: 500;
-	padding-top: 2em;
+	padding-top: 1.5em;
 	text-align: left;
-	padding-left: 2.5em;	
+	padding-left: 2em;
+	font-family: 'Ubuntu', sans-serif;
+	
 }
 
 .schedule a {
 	padding: 0.5em;
+	vertical-align: middle;	
 }
 
 .start-schedule a:hover{
@@ -796,22 +799,21 @@ background-size: cover;
 	  }
 
 		#header h1 {
-			font-size: 3.5em;
+			font-size: 4em;
 			font-weight: 900;
 			letter-spacing: -0.025em;
 			line-height: 1em;
 			color: #f3f5f8;
-			opacity: 0.5;
+			opacity: 0.3;
 			font-family: 'Ubuntu', sans-serif;
-			/* text-transform: uppercase; */
 		}
 
 		#header p {
 			font-family: 'Ubuntu', sans-serif;
-			font-size: 5em;
+			font-size: 4em;
 			font-weight: 900;
-			margin: 1.25em 0 0.5em 0;
-			opacity: 0.3;
+			margin: 0.75em 0 0.25em 0;
+			opacity: 0.5;
 			color: #3dc9b3;
 		}
 
@@ -1555,12 +1557,14 @@ form{
 }
 
 .main-links a{
-	font-size: 00.8em;
+	font-size: 0.7em;
+	letter-spacing: 0.05em;
 }
 
 .main-links {
 	padding: 1em;
 	text-transform: uppercase;
+	text-align: left;
   }
 
 .main-links h1{
@@ -1597,13 +1601,14 @@ form{
 	position: relative;	
 	letter-spacing: 0.1em;
 	font-weight: 900;
-	padding-bottom: 1.25em;
+	padding-bottom: 0.75em;
 	opacity: 0.5;
+	text-align: left;
   }
   .ml4 .letters {
 	position: absolute;
-	font-family: 'Six Caps', sans-serif;
-	font-size: 3em;
+	/* font-family: 'Six Caps', sans-serif; */
+	font-size: 1.4em;
 	left: 0;
 	top: 0;
 	right: 0;
