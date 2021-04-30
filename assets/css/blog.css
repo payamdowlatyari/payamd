@@ -162,13 +162,13 @@ h4 {
 
 #sideNav .navbar-nav .nav-item .nav-link:hover{
      color: #f3f5f8;
-     padding-left: 14px; 
+     padding-left: 23px; 
      transition: 0.5s;
 }
     
 #sideNav .navbar-nav .nav-item .nav-link:focus{ 
         color: #f3f5f8;
-        padding-left: 14px; 
+        padding-left: 25px; 
         opacity: 1;
 }
 
@@ -279,15 +279,15 @@ a:active,a:focus,a:hover{
  #sideNav .navbar-nav .nav-item .nav-link{
     font-family: 'Ubuntu', sans-serif; 
     color: #a1a9b0;   
-     font-size: 0.9em;
+     font-size: 1em;
      line-height: 0.5em;
      opacity: 0.7;
-     padding-left: 12px; 
+     padding-left: 23px; 
  }
 
  #sideNav .navbar-nav .nav-item .nav-link:hover{
     color: #a1a9b0;
-    padding-left: 14px;
+    padding-left: 25px;
     opacity: 1;
 }
 
