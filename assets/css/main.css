@@ -77,6 +77,7 @@ input, select, textarea {
 
 footer p {
 	padding: 10px;
+   opacity: 0.75;
 }
 
 /* Basic */
@@ -107,6 +108,7 @@ footer p {
 
 	body, input, select, textarea {
 		color: #f3f5f8;
+		
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 500 !important;
@@ -989,6 +991,7 @@ background-size: cover;
 
 			body, input, select, textarea {
 				font-size: 13pt;
+				
 			}
 
 		/* BG */
@@ -1390,7 +1393,7 @@ background-size: cover;
 	text-transform: uppercase;
 	font-family: 'Ubuntu', sans-serif;
 	padding-bottom: 0.5em;
-	opacity: 0.75;
+	opacity: 0.6;
 }
 
 #about-sec p{
@@ -1491,25 +1494,25 @@ form{
 	opacity: 1;
 }
 
-.calendly {
+.contact-form .calendly {
 	position: relative;
 	padding: 0.25em;
 	display: inline-block;
 }
  
-.calendly a{
+.contact-form  .calendly a{
 	opacity: 0.5;
 	font-size: 0.9em;	
 	font-family: 'Ubuntu', sans-serif;
 	margin: 0.5em;
 }
 
-.calendly a:hover {
+.contact-form  .calendly a:hover {
 	transition: 1s;
 	opacity: 0.9;
 }
 
-.calendly img{
+.contact-form .calendly img{
 	width: 3em;
 	opacity: 0.75;	
 	-webkit-animation: rotate-hor-top 5s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
@@ -1551,9 +1554,10 @@ form{
 	}
   }
 
-.calendly img:hover {
+.contact-form .calendly img:hover {
 	transition: 1s;	
 	opacity: 0.9;
+	
 }
 
 .main-links a{
@@ -1617,6 +1621,16 @@ form{
 
   .form-control{
 	  background: transparent;
+  }
+
+  .contact-form .mini-title{
+	opacity: 0.5;
+	font-size: 0.9em;	
+	font-family: 'Ubuntu', sans-serif;
+  }
+
+  #email-phone a:hover{
+	transition: 0.7s;
   }
 
  
