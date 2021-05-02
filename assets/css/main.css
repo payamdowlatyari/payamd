@@ -355,7 +355,7 @@ background-size: cover;
 	letter-spacing: 0.05em;
 	line-height: 2.5em;
 	font-weight: 500;
-	padding-top: 1.5em;
+	padding-top: 2em;
 	text-align: left;
 	padding-left: 2em;
 	font-family: 'Ubuntu', sans-serif;
@@ -364,7 +364,7 @@ background-size: cover;
 
 .schedule a {
 	padding: 0.5em;
-	vertical-align: middle;	
+	vertical-align: text-top;	
 }
 
 .start-schedule a:hover{
@@ -1397,15 +1397,17 @@ background-size: cover;
 }
 
 #about-sec p{
-	font-weight: 900;
+	font-weight: 100;
 	color: #f3f5f8;
     font-size: small;
-	opacity: 0.65;
+	opacity: 0.6;
 	line-height: 1.5em;
+	font-family: 'Syne', sans-serif;
 }
 
 #social-links-about {
 	padding: 0;
+	font-size: small;
 }
 
 .contact-form{
@@ -1446,7 +1448,7 @@ form{
 
 .sub-btn{
     background-color: #3dc9b3;
-    opacity: 0.75;
+    opacity: 0.5;
     color: #242830;
     width: 165px;
     min-width: 60px;
@@ -1455,7 +1457,7 @@ form{
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
 }
-.sub-btn:hover{
+.sub-btn:hover{	
     background-color: #a1a9b0;
 	color: #242830;
     transition: 0.75s;
@@ -1463,8 +1465,8 @@ form{
 
 .res-btn{
     background-color: #a1a9b0;
+	opacity: 0.5;
     color: #242830;
-    opacity: 0.75;
     width: 165px;
     min-width: 60px;
     margin: 5px;
@@ -1563,6 +1565,7 @@ form{
 .main-links a{
 	font-size: 0.7em;
 	letter-spacing: 0.05em;
+	font-weight: 500;
 }
 
 .main-links {
@@ -1611,7 +1614,7 @@ form{
   }
   .ml4 .letters {
 	position: absolute;
-	/* font-family: 'Six Caps', sans-serif; */
+	font-weight: 900;
 	font-size: 1.4em;
 	left: 0;
 	top: 0;
@@ -1621,6 +1624,7 @@ form{
 
   .form-control{
 	  background: transparent;
+	  border-color: #a1a9b0;
   }
 
   .contact-form .mini-title{
@@ -1635,6 +1639,47 @@ form{
 
  
 
+
+  .section {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+	z-index: -100;
+}
+
+
+.video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.75;
+}
+
+.color-overlay2{
+
+	position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.75;
+
+}
 
 
 

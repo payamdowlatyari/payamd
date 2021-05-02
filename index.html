@@ -39,6 +39,12 @@
 		<div id="overlay">
 		</div>
 		<div id="overlay-2" onclick="off()">
+			<div class="video-container">
+				<div class="color-overlay2"></div>
+				<video autoplay loop muted>
+					<source src="assets/img/Pexels Videos 2866.mp4" type="video/mp4">
+				</video>
+			</div>
 			<div class="top-page">
 				<div class="start-button">
 					<a onclick="off()">
@@ -66,15 +72,17 @@
 			</div>
 		</div>
 		<div id="main">
+			<div class="video-container">
+				<div class="color-overlay"></div>
+				<video autoplay loop muted>
+					<source src="assets/img/Pexels Videos 2866.mp4" type="video/mp4">
+				</video>
+			</div>
 			<div class="top-page">
 				<div class="grid-container">
 					<div class="item1">
 						<div class="schedule">
-
-
-							<!-- <br> -->
 							<a href="/"><img src="/assets/img/payamd.png" width="125px" /></a>
-							<!-- <br> -->
 							<a href="/about.html">
 								About
 							</a>
@@ -84,11 +92,8 @@
 						</div>
 					</div>
 
-
 					<div class="item2">
-
 						<div class="start-button">
-
 							<a onclick="on()">
 								<i class="fa fa-bars" aria-hidden="true"></i>
 							</a>
@@ -126,7 +131,7 @@
 
 				<p class="license-text">
 					Designed by<a rel="cc:attributionURL dct:creator" property="cc:attributionName"
-						href="https://www.payamd.com/" target="_blank">payamd.com</a>Licensed under<a rel="license"
+						href="https://www.payamd.com/" target="_blank">payamd.com</a> Licensed under<a rel="license"
 						href="https://creativecommons.org/licenses/by-nc/4.0" target="_blank">CC
 						BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
 							src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img
@@ -155,10 +160,10 @@
 
 		var ml4 = {};
 		ml4.opacityIn = [0, 0.4];
-		ml4.scaleIn = [0, 1];
-		ml4.scaleOut = 2;
-		ml4.durationIn = 1500;
-		ml4.durationOut = 1000;
+		ml4.scaleIn = [0.75, 1];
+		ml4.scaleOut = 1.25;
+		ml4.durationIn = 1000;
+		ml4.durationOut = 200;
 		ml4.delay = 2500;
 
 		anime.timeline({ loop: true })
