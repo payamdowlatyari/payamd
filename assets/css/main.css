@@ -1407,7 +1407,7 @@ background-size: cover;
 
 #social-links-about {
 	padding: 0;
-	font-size: small;
+	font-size: smaller;
 }
 
 .contact-form{
@@ -1503,8 +1503,8 @@ form{
 }
  
 .contact-form  .calendly a{
-	opacity: 0.5;
-	font-size: 0.9em;	
+	opacity: 0.4;
+	font-size: 0.8em;	
 	font-family: 'Ubuntu', sans-serif;
 	margin: 0.5em;
 }
@@ -1638,9 +1638,7 @@ form{
   }
 
  
-
-
-  .section {
+.section {
     position: absolute;
     width: 100%;
     height: 100vh;
